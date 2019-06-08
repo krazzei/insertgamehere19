@@ -6,18 +6,14 @@ public class Ship : MonoBehaviour
     private Rigidbody2D _rigidbody;
 
     [SerializeField]
-    private GameObject _leftThruster;
+    private Transform _leftThruster;
 
     [SerializeField]
-    private GameObject _rightThruster;
+    private Transform _rightThruster;
 
     [SerializeField]
     private float thrustForce;
     
-    private Transform _leftTransform;
-    
-    private Transform _rightTransform;
-
     [SerializeField]
     private Transform _leftSide;
 
@@ -28,30 +24,27 @@ public class Ship : MonoBehaviour
     private void Start()
     {
         _rigidbody = GetComponent<Rigidbody2D>();
-
-        _leftTransform = _leftThruster.transform;
-        _rightTransform = _rightThruster.transform;
     }
 
     // Update is called once per frame
     private void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Space))
+        if ( Input.GetKeyDown(KeyCode.Space))
         {
-            _rigidbody.AddForceAtPosition(_leftTransform.up * thrustForce, _leftTransform.position);
-            _rigidbody.AddForceAtPosition(_rightTransform.up * thrustForce, _rightTransform.position);
+            _rigidbody.AddForceAtPosition(_leftThruster.up * thrustForce, _leftThruster.position);
+            _rigidbody.AddForceAtPosition(_rightThruster.up * thrustForce, _rightThruster.position);
         }
         
         // TODO: might want and Input controller of some sort?
         // TODO: at the least we need to use GetAxis or GetAction to use the arcade stick.
         if (Input.GetKeyDown(KeyCode.F))
         {
-            _rigidbody.AddForceAtPosition(_leftTransform.up * thrustForce, _leftTransform.position);
+            _rigidbody.AddForceAtPosition(_leftThruster.up * thrustForce, _leftThruster.position);
         }
 
         if (Input.GetKeyDown(KeyCode.J))
         {
-            _rigidbody.AddForceAtPosition(_rightTransform.up * thrustForce, _rightTransform.position);
+            _rigidbody.AddForceAtPosition(_rightThruster.up * thrustForce, _rightThruster.position);
         }
 
         if (Input.GetKeyDown(KeyCode.D))
