@@ -31,16 +31,16 @@ public class RhythmManager : MonoBehaviour
         return 0;
     }
 
-    IEnumerator onBeat()
-    {
-        float i = 0;
-        for (i; f >= 0; f -= 0.1f)
-        {
-            Color c = renderer.material.color;
-            c.a = f;
-            renderer.material.color = c;
-            yield return null;
-        }
-    }
+//    IEnumerator onBeat()
+//    {
+//        float i = 0;
+//        for (i; f >= 0; f -= 0.1f)
+//        {
+//            Color c = GetComponent<Renderer>().material.color;
+//            c.a = f;
+//            GetComponent<Renderer>().material.color = c;
+//            yield return null;
+//        }
+//    }
 
 }

@@ -8,6 +8,14 @@ public static class GameManager
     private static float _startTime;
     private static float _endTime;
 
+    private static HighScoreManager _highScoreManager;
+
+    static GameManager()
+    {
+        Debug.Log(Application.persistentDataPath);
+        _highScoreManager = new HighScoreManager(Application.persistentDataPath + "/IGH19_highScore.json");
+    }
+
     public static void SetShip(Ship ship)
     {
         _ship = ship;
@@ -43,5 +51,6 @@ public static class GameManager
     public static void RecordScore(string initials)
     {
         var time = _endTime - _startTime;
+        _highScoreManager.UpdateOrInsertHighScore(initials, time);
     }
 }

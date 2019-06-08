@@ -7,4 +7,10 @@ public class HighScore
     public float Time;
     [DataMember]
     public string Initials;
+
+    public HighScore(string initials, float time)
+    {
+        Time = time;
+        Initials = initials;
+    }
 }
