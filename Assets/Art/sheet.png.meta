@@ -1,7 +1,889 @@
 fileFormatVersion: 2
 guid: d0a0ac8724f874f34b8e1609d71625c3
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: 3646490248035491683
+    second: beam0.png
+  - first:
+      213: -6044696764575874939
+    second: beam1.png
+  - first:
+      213: -1638408184179387560
+    second: beam2.png
+  - first:
+      213: -7873178565918532231
+    second: beam3.png
+  - first:
+      213: -5166968913409246286
+    second: beam4.png
+  - first:
+      213: -8174246001080614513
+    second: beam5.png
+  - first:
+      213: 711465747966223245
+    second: beam6.png
+  - first:
+      213: 886155774455798013
+    second: beamLong1.png
+  - first:
+      213: 8790915555928736426
+    second: beamLong2.png
+  - first:
+      213: -3711355299728609468
+    second: bold_silver.png
+  - first:
+      213: -3689064188071477082
+    second: bolt_bronze.png
+  - first:
+      213: 8082763461715426152
+    second: bolt_gold.png
+  - first:
+      213: 1294019068680278440
+    second: buttonBlue.png
+  - first:
+      213: -1364084970762469421
+    second: buttonGreen.png
+  - first:
+      213: 7525693508291839157
+    second: buttonRed.png
+  - first:
+      213: -4096383752446499499
+    second: buttonYellow.png
+  - first:
+      213: 3837130071759734075
+    second: cockpitBlue_0.png
+  - first:
+      213: -7711972654998331904
+    second: cockpitBlue_1.png
+  - first:
+      213: -3099669657829740735
+    second: cockpitBlue_2.png
+  - first:
+      213: 3415711516682148479
+    second: cockpitBlue_3.png
+  - first:
+      213: -8238505057224571749
+    second: cockpitBlue_4.png
+  - first:
+      213: 8837964912350116715
+    second: cockpitBlue_5.png
+  - first:
+      213: -5062666483008613354
+    second: cockpitBlue_6.png
+  - first:
+      213: -8513700311864897586
+    second: cockpitBlue_7.png
+  - first:
+      213: -9218578022481777890
+    second: cockpitGreen_0.png
+  - first:
+      213: 5452511911173042821
+    second: cockpitGreen_1.png
+  - first:
+      213: 3566929716083127086
+    second: cockpitGreen_2.png
+  - first:
+      213: -5472813101993058446
+    second: cockpitGreen_3.png
+  - first:
+      213: -7116489491264138038
+    second: cockpitGreen_4.png
+  - first:
+      213: -2649269674437484070
+    second: cockpitGreen_5.png
+  - first:
+      213: 4282870453021652535
+    second: cockpitGreen_6.png
+  - first:
+      213: -2524788258451768313
+    second: cockpitGreen_7.png
+  - first:
+      213: -3672171573856778257
+    second: cockpitRed_0.png
+  - first:
+      213: 5687129572882118783
+    second: cockpitRed_1.png
+  - first:
+      213: 4319335202327419710
+    second: cockpitRed_2.png
+  - first:
+      213: 7249890598902628553
+    second: cockpitRed_3.png
+  - first:
+      213: -2058288929581515113
+    second: cockpitRed_4.png
+  - first:
+      213: 8467282898467345583
+    second: cockpitRed_5.png
+  - first:
+      213: -7718353217241618634
+    second: cockpitRed_6.png
+  - first:
+      213: -2136137060809322968
+    second: cockpitRed_7.png
+  - first:
+      213: -5821682429057938928
+    second: cockpitYellow_0.png
+  - first:
+      213: -8393596365437651747
+    second: cockpitYellow_1.png
+  - first:
+      213: 8201889261261836938
+    second: cockpitYellow_2.png
+  - first:
+      213: 8918626645854242598
+    second: cockpitYellow_3.png
+  - first:
+      213: 6463090127283316257
+    second: cockpitYellow_4.png
+  - first:
+      213: 5576142823379367555
+    second: cockpitYellow_5.png
+  - first:
+      213: 4883956002856256234
+    second: cockpitYellow_6.png
+  - first:
+      213: 2735845915108849529
+    second: cockpitYellow_7.png
+  - first:
+      213: -5953348466652540503
+    second: cursor.png
+  - first:
+      213: -4508698113951077659
+    second: enemyBlack1.png
+  - first:
+      213: 4959539353589005249
+    second: enemyBlack2.png
+  - first:
+      213: -6619663906675191081
+    second: enemyBlack3.png
+  - first:
+      213: -8763662198294554495
+    second: enemyBlack4.png
+  - first:
+      213: -2287361923395422921
+    second: enemyBlack5.png
+  - first:
+      213: 3328328576997583141
+    second: enemyBlue1.png
+  - first:
+      213: 7774770200307891486
+    second: enemyBlue2.png
+  - first:
+      213: -2957173371371200949
+    second: enemyBlue3.png
+  - first:
+      213: -7052345004396845694
+    second: enemyBlue4.png
+  - first:
+      213: 1079199761341311137
+    second: enemyBlue5.png
+  - first:
+      213: -6610940037711747316
+    second: enemyGreen1.png
+  - first:
+      213: 9053789733962595892
+    second: enemyGreen2.png
+  - first:
+      213: 3658282600550741179
+    second: enemyGreen3.png
+  - first:
+      213: 1371635291033550049
+    second: enemyGreen4.png
+  - first:
+      213: 4307901932540739245
+    second: enemyGreen5.png
+  - first:
+      213: -8535788189756399308
+    second: enemyRed1.png
+  - first:
+      213: -4522803996747795011
+    second: enemyRed2.png
+  - first:
+      213: 1021604507497806049
+    second: enemyRed3.png
+  - first:
+      213: -1655781334524724447
+    second: enemyRed4.png
+  - first:
+      213: 5645763318122690536
+    second: enemyRed5.png
+  - first:
+      213: 7378301040880279657
+    second: engine1.png
+  - first:
+      213: 6203124734314757198
+    second: engine2.png
+  - first:
+      213: -2561293471896255696
+    second: engine3.png
+  - first:
+      213: -2852872388609347510
+    second: engine4.png
+  - first:
+      213: -7393969260800644548
+    second: engine5.png
+  - first:
+      213: 1351740812517389558
+    second: fire00.png
+  - first:
+      213: 8102419236820848756
+    second: fire01.png
+  - first:
+      213: 8454783048166867450
+    second: fire02.png
+  - first:
+      213: 3073899960460502104
+    second: fire03.png
+  - first:
+      213: -8158588119256436573
+    second: fire04.png
+  - first:
+      213: 7249783839268456832
+    second: fire05.png
+  - first:
+      213: -1106769346293956970
+    second: fire06.png
+  - first:
+      213: 4160354023047995600
+    second: fire07.png
+  - first:
+      213: -1409274899496079971
+    second: fire08.png
+  - first:
+      213: -4440871810498457145
+    second: fire09.png
+  - first:
+      213: 6048276507865764938
+    second: fire10.png
+  - first:
+      213: 2550652039553797809
+    second: fire11.png
+  - first:
+      213: 6076265968685442356
+    second: fire12.png
+  - first:
+      213: -3026313772208464660
+    second: fire13.png
+  - first:
+      213: -6511428812986920385
+    second: fire14.png
+  - first:
+      213: -3284863241781250885
+    second: fire15.png
+  - first:
+      213: 8752297365800118195
+    second: fire16.png
+  - first:
+      213: 6548886528512625061
+    second: fire17.png
+  - first:
+      213: -1036965136504807210
+    second: fire18.png
+  - first:
+      213: 437340546767797571
+    second: fire19.png
+  - first:
+      213: -3321541064797330735
+    second: gun00.png
+  - first:
+      213: 7393883130103053727
+    second: gun01.png
+  - first:
+      213: -6003376888718104736
+    second: gun02.png
+  - first:
+      213: 7584171206972568781
+    second: gun03.png
+  - first:
+      213: -7645379865865487777
+    second: gun04.png
+  - first:
+      213: -5366083449385457677
+    second: gun05.png
+  - first:
+      213: -5939399024722635814
+    second: gun06.png
+  - first:
+      213: -8004872856070739849
+    second: gun07.png
+  - first:
+      213: -56488909394249877
+    second: gun08.png
+  - first:
+      213: -5830389129200487595
+    second: gun09.png
+  - first:
+      213: 2472613412994592295
+    second: gun10.png
+  - first:
+      213: 2921470668926288970
+    second: laserBlue01.png
+  - first:
+      213: 3602526423769409086
+    second: laserBlue02.png
+  - first:
+      213: -1020090064025625753
+    second: laserBlue03.png
+  - first:
+      213: -7726741253512866194
+    second: laserBlue04.png
+  - first:
+      213: -1129006268114760397
+    second: laserBlue05.png
+  - first:
+      213: -655757784164609137
+    second: laserBlue06.png
+  - first:
+      213: 8353321399318934863
+    second: laserBlue07.png
+  - first:
+      213: -6498647964698370199
+    second: laserBlue08.png
+  - first:
+      213: 4016741044235484074
+    second: laserBlue09.png
+  - first:
+      213: 7869088444859223245
+    second: laserBlue10.png
+  - first:
+      213: 1364049590943795260
+    second: laserBlue11.png
+  - first:
+      213: -5828105468193207594
+    second: laserBlue12.png
+  - first:
+      213: -6397823618000266404
+    second: laserBlue13.png
+  - first:
+      213: -1788009680952464340
+    second: laserBlue14.png
+  - first:
+      213: -8820162796460001185
+    second: laserBlue15.png
+  - first:
+      213: 2355182561314163980
+    second: laserBlue16.png
+  - first:
+      213: 8738871166983892941
+    second: laserGreen01.png
+  - first:
+      213: 7101365085137390762
+    second: laserGreen02.png
+  - first:
+      213: -4924013827390446724
+    second: laserGreen03.png
+  - first:
+      213: 7989082572873131969
+    second: laserGreen04.png
+  - first:
+      213: 230797344319437898
+    second: laserGreen05.png
+  - first:
+      213: -5323291335239706552
+    second: laserGreen06.png
+  - first:
+      213: 4960783951515338031
+    second: laserGreen07.png
+  - first:
+      213: 359081235099770183
+    second: laserGreen08.png
+  - first:
+      213: 1750533318122431778
+    second: laserGreen09.png
+  - first:
+      213: -2371731189906419056
+    second: laserGreen10.png
+  - first:
+      213: 8912471915944267254
+    second: laserGreen11.png
+  - first:
+      213: -4543711948003703377
+    second: laserGreen12.png
+  - first:
+      213: -8669993147749747910
+    second: laserGreen13.png
+  - first:
+      213: -8188983256552683446
+    second: laserGreen14.png
+  - first:
+      213: -3492086862585303054
+    second: laserGreen15.png
+  - first:
+      213: -7820833839027232870
+    second: laserGreen16.png
+  - first:
+      213: -5187347373322019675
+    second: laserRed01.png
+  - first:
+      213: 2795317151694090127
+    second: laserRed02.png
+  - first:
+      213: 3661578761546000931
+    second: laserRed03.png
+  - first:
+      213: -8293362312686519738
+    second: laserRed04.png
+  - first:
+      213: 8152213185097003811
+    second: laserRed05.png
+  - first:
+      213: -7875750932089707907
+    second: laserRed06.png
+  - first:
+      213: 2244685038557466302
+    second: laserRed07.png
+  - first:
+      213: 969807161020003136
+    second: laserRed08.png
+  - first:
+      213: 541864809410041170
+    second: laserRed09.png
+  - first:
+      213: -6744653185857572967
+    second: laserRed10.png
+  - first:
+      213: 7101187009279582148
+    second: laserRed11.png
+  - first:
+      213: -7889634319068221004
+    second: laserRed12.png
+  - first:
+      213: 390198226611088680
+    second: laserRed13.png
+  - first:
+      213: -788753711389941659
+    second: laserRed14.png
+  - first:
+      213: 4369162093305101258
+    second: laserRed15.png
+  - first:
+      213: -3604903149283597745
+    second: laserRed16.png
+  - first:
+      213: -8339005489133269724
+    second: meteorBrown_big1.png
+  - first:
+      213: -947072167030862117
+    second: meteorBrown_big2.png
+  - first:
+      213: -6867972004390754146
+    second: meteorBrown_big3.png
+  - first:
+      213: 987805300098070315
+    second: meteorBrown_big4.png
+  - first:
+      213: 3467865264933486527
+    second: meteorBrown_med1.png
+  - first:
+      213: 6864235435029977924
+    second: meteorBrown_med3.png
+  - first:
+      213: -8250649375594755563
+    second: meteorBrown_small1.png
+  - first:
+      213: -4431388003160355013
+    second: meteorBrown_small2.png
+  - first:
+      213: -8177379104631238225
+    second: meteorBrown_tiny1.png
+  - first:
+      213: -215236285221329341
+    second: meteorBrown_tiny2.png
+  - first:
+      213: 1290327954954949088
+    second: meteorGrey_big1.png
+  - first:
+      213: -245694023857363278
+    second: meteorGrey_big2.png
+  - first:
+      213: -6366855468589548433
+    second: meteorGrey_big3.png
+  - first:
+      213: -6733909091500271354
+    second: meteorGrey_big4.png
+  - first:
+      213: 328092247259686149
+    second: meteorGrey_med1.png
+  - first:
+      213: -7611726189556237606
+    second: meteorGrey_med2.png
+  - first:
+      213: -1009192047567407995
+    second: meteorGrey_small1.png
+  - first:
+      213: 3158903393190652685
+    second: meteorGrey_small2.png
+  - first:
+      213: -83818483404661103
+    second: meteorGrey_tiny1.png
+  - first:
+      213: -4619880252180113523
+    second: meteorGrey_tiny2.png
+  - first:
+      213: -6683591975502130046
+    second: numeral0.png
+  - first:
+      213: -4294954472446593215
+    second: numeral1.png
+  - first:
+      213: 3621817367008345332
+    second: numeral2.png
+  - first:
+      213: 4484854336717043569
+    second: numeral3.png
+  - first:
+      213: -1213923486846579734
+    second: numeral4.png
+  - first:
+      213: 7893153474798392062
+    second: numeral5.png
+  - first:
+      213: -2526401654114208938
+    second: numeral6.png
+  - first:
+      213: -2864947593817152609
+    second: numeral7.png
+  - first:
+      213: 3422904947487961901
+    second: numeral8.png
+  - first:
+      213: -1347516320188645758
+    second: numeral9.png
+  - first:
+      213: 5111477472431342323
+    second: numeralX.png
+  - first:
+      213: 1731053707704713080
+    second: pill_blue.png
+  - first:
+      213: 5431849548235275718
+    second: pill_green.png
+  - first:
+      213: 4582730908298752497
+    second: pill_red.png
+  - first:
+      213: 8832732456259409462
+    second: pill_yellow.png
+  - first:
+      213: -6542045311909502710
+    second: playerLife1_blue.png
+  - first:
+      213: -280619407508743635
+    second: playerLife1_green.png
+  - first:
+      213: -1645159840110871536
+    second: playerLife1_orange.png
+  - first:
+      213: -3656629337564959886
+    second: playerLife1_red.png
+  - first:
+      213: -2561021910363445414
+    second: playerLife2_blue.png
+  - first:
+      213: -4588254111092450104
+    second: playerLife2_green.png
+  - first:
+      213: 2794106048496908037
+    second: playerLife2_orange.png
+  - first:
+      213: 773177975261426795
+    second: playerLife2_red.png
+  - first:
+      213: -1220450115188468911
+    second: playerLife3_blue.png
+  - first:
+      213: -6745620357319115206
+    second: playerLife3_green.png
+  - first:
+      213: 1550021549408369761
+    second: playerLife3_orange.png
+  - first:
+      213: 649100677075123729
+    second: playerLife3_red.png
+  - first:
+      213: 2182010870586553233
+    second: playerShip1_blue.png
+  - first:
+      213: 5437709037145618173
+    second: playerShip1_damage1.png
+  - first:
+      213: -3443111094430537470
+    second: playerShip1_damage2.png
+  - first:
+      213: 3645352653072340200
+    second: playerShip1_damage3.png
+  - first:
+      213: 4086461823457673505
+    second: playerShip1_green.png
+  - first:
+      213: 4851533150266067239
+    second: playerShip1_orange.png
+  - first:
+      213: 2288492929210822553
+    second: playerShip1_red.png
+  - first:
+      213: -8402970689181397014
+    second: playerShip2_blue.png
+  - first:
+      213: -5157739060846212607
+    second: playerShip2_damage1.png
+  - first:
+      213: -2628411099061857690
+    second: playerShip2_damage2.png
+  - first:
+      213: -5422095630319474053
+    second: playerShip2_damage3.png
+  - first:
+      213: -1730901723975914595
+    second: playerShip2_green.png
+  - first:
+      213: -8625987278910882921
+    second: playerShip2_orange.png
+  - first:
+      213: -6032558302687065339
+    second: playerShip2_red.png
+  - first:
+      213: -6536287391458957408
+    second: playerShip3_blue.png
+  - first:
+      213: -3310842626314209242
+    second: playerShip3_damage1.png
+  - first:
+      213: -8198575606760956096
+    second: playerShip3_damage2.png
+  - first:
+      213: -5401503732398968508
+    second: playerShip3_damage3.png
+  - first:
+      213: -6137316354593400248
+    second: playerShip3_green.png
+  - first:
+      213: -2871634709916022068
+    second: playerShip3_orange.png
+  - first:
+      213: 1269724166452363602
+    second: playerShip3_red.png
+  - first:
+      213: -602186881644547713
+    second: powerupBlue.png
+  - first:
+      213: -6066535518541817694
+    second: powerupBlue_bolt.png
+  - first:
+      213: 6015116524536153082
+    second: powerupBlue_shield.png
+  - first:
+      213: 118367418820200075
+    second: powerupBlue_star.png
+  - first:
+      213: 3808985181416546002
+    second: powerupGreen.png
+  - first:
+      213: -1838175905825336305
+    second: powerupGreen_bolt.png
+  - first:
+      213: -8971159898044158050
+    second: powerupGreen_shield.png
+  - first:
+      213: 8984519259080213226
+    second: powerupGreen_star.png
+  - first:
+      213: -6705204528405895651
+    second: powerupRed.png
+  - first:
+      213: 9172342809337266121
+    second: powerupRed_bolt.png
+  - first:
+      213: 1614005536539247520
+    second: powerupRed_shield.png
+  - first:
+      213: -8880370675338432249
+    second: powerupRed_star.png
+  - first:
+      213: 2582644265671368683
+    second: powerupYellow.png
+  - first:
+      213: -4422006916996271244
+    second: powerupYellow_bolt.png
+  - first:
+      213: -2441030352292401404
+    second: powerupYellow_shield.png
+  - first:
+      213: 1003888302522366858
+    second: powerupYellow_star.png
+  - first:
+      213: -3650525781784792064
+    second: scratch1.png
+  - first:
+      213: 4763412265790839939
+    second: scratch2.png
+  - first:
+      213: -6937849387448672213
+    second: scratch3.png
+  - first:
+      213: 8055636226449465537
+    second: shield1.png
+  - first:
+      213: -3102023160662443161
+    second: shield2.png
+  - first:
+      213: -518384228343214380
+    second: shield3.png
+  - first:
+      213: -3381572517487309965
+    second: shield_bronze.png
+  - first:
+      213: -6720619369845810135
+    second: shield_gold.png
+  - first:
+      213: 6045611832034831495
+    second: shield_silver.png
+  - first:
+      213: 160773421271448107
+    second: speed.png
+  - first:
+      213: 3310680609277666421
+    second: star1.png
+  - first:
+      213: -6263555544328688002
+    second: star2.png
+  - first:
+      213: -6844159849076111448
+    second: star3.png
+  - first:
+      213: 7046362299675551346
+    second: star_bronze.png
+  - first:
+      213: 8631437530027257385
+    second: star_gold.png
+  - first:
+      213: -6440998597012720240
+    second: star_silver.png
+  - first:
+      213: 7244200078384958924
+    second: things_bronze.png
+  - first:
+      213: 4436854889672128892
+    second: things_gold.png
+  - first:
+      213: -5806172446307965833
+    second: things_silver.png
+  - first:
+      213: 2595461128045109910
+    second: turretBase_big.png
+  - first:
+      213: -160871276437787785
+    second: turretBase_small.png
+  - first:
+      213: 147892167238007827
+    second: ufoBlue.png
+  - first:
+      213: 6251165375043374333
+    second: ufoGreen.png
+  - first:
+      213: -101515349923921600
+    second: ufoRed.png
+  - first:
+      213: -2662195974771000781
+    second: ufoYellow.png
+  - first:
+      213: -3282575277786821151
+    second: wingBlue_0.png
+  - first:
+      213: -3778975856283944473
+    second: wingBlue_1.png
+  - first:
+      213: 7761993133193807061
+    second: wingBlue_2.png
+  - first:
+      213: -6655413271573264397
+    second: wingBlue_3.png
+  - first:
+      213: -9059544785123621154
+    second: wingBlue_4.png
+  - first:
+      213: -2186735482993268004
+    second: wingBlue_5.png
+  - first:
+      213: -5880208026252939805
+    second: wingBlue_6.png
+  - first:
+      213: 7670949949857693242
+    second: wingBlue_7.png
+  - first:
+      213: -8896654310896569240
+    second: wingGreen_0.png
+  - first:
+      213: 8605713137387789721
+    second: wingGreen_1.png
+  - first:
+      213: -8461906419013839718
+    second: wingGreen_2.png
+  - first:
+      213: -6018976141646020760
+    second: wingGreen_3.png
+  - first:
+      213: 7002217320564373851
+    second: wingGreen_4.png
+  - first:
+      213: 2235845330354079781
+    second: wingGreen_5.png
+  - first:
+      213: -613224613277202472
+    second: wingGreen_6.png
+  - first:
+      213: -2688075590036205744
+    second: wingGreen_7.png
+  - first:
+      213: 5170150559982808655
+    second: wingRed_0.png
+  - first:
+      213: -6560281522590793372
+    second: wingRed_1.png
+  - first:
+      213: 8028395055862580672
+    second: wingRed_2.png
+  - first:
+      213: 15985396131609172
+    second: wingRed_3.png
+  - first:
+      213: -175158354727378939
+    second: wingRed_4.png
+  - first:
+      213: -1364340226851392766
+    second: wingRed_5.png
+  - first:
+      213: -64649555326737295
+    second: wingRed_6.png
+  - first:
+      213: 3066467157699729279
+    second: wingRed_7.png
+  - first:
+      213: 8941380569427585736
+    second: wingYellow_0.png
+  - first:
+      213: 4481087292963261297
+    second: wingYellow_1.png
+  - first:
+      213: 401062210434779672
+    second: wingYellow_2.png
+  - first:
+      213: -491459270415945105
+    second: wingYellow_3.png
+  - first:
+      213: -7321030423937969098
+    second: wingYellow_4.png
+  - first:
+      213: -4966777128784167215
+    second: wingYellow_5.png
+  - first:
+      213: -2938354190850396204
+    second: wingYellow_6.png
+  - first:
+      213: 1235163480012904704
+    second: wingYellow_7.png
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -40,7 +922,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -71,7 +953,6181 @@ TextureImporter:
     androidETC2FallbackOverride: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: beam0.png
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 616
+        width: 43
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87ffcf8afa7639f49a34c3f3213b1dec
+      internalID: 3646490248035491683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beam1.png
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 360
+        width: 40
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8ccaa69241de234091a98b210487d41
+      internalID: -6044696764575874939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beam2.png
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 86
+        width: 38
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0df36c1ad32b4e4cb4d96134826cc36
+      internalID: -1638408184179387560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beam3.png
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 611
+        width: 29
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31ab6b1e05de47f4c8e06fe320d7de3a
+      internalID: -7873178565918532231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beam4.png
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 511
+        width: 41
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 914f86a3f548dad41b447b467ce4480a
+      internalID: -5166968913409246286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beam5.png
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 622
+        width: 40
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 437cda613f81fe041af3ff4bf7859fe7
+      internalID: -8174246001080614513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beam6.png
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 313
+        width: 43
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7954520108f183d4a82dafc7a904ad37
+      internalID: 711465747966223245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beamLong1.png
+      rect:
+        serializedVersion: 2
+        x: 828
+        y: 14
+        width: 15
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bacafd57f4a1e144a848ca73e05a2e00
+      internalID: 886155774455798013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beamLong2.png
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 651
+        width: 25
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0991fd4c04300b43b7764bb241ca922
+      internalID: 8790915555928736426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bold_silver.png
+      rect:
+        serializedVersion: 2
+        x: 810
+        y: 157
+        width: 19
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 376e075c16acabe4f857b91fc2c7c3cd
+      internalID: -3711355299728609468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bolt_bronze.png
+      rect:
+        serializedVersion: 2
+        x: 810
+        y: 527
+        width: 19
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90827308723ce3240879b65999028be3
+      internalID: -3689064188071477082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bolt_gold.png
+      rect:
+        serializedVersion: 2
+        x: 809
+        y: 557
+        width: 19
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b1146be7367f3044a1e73f47e7a6a33
+      internalID: 8082763461715426152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buttonBlue.png
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 907
+        width: 222
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4da378b2c2a09d14b930b536d043918a
+      internalID: 1294019068680278440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buttonGreen.png
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 868
+        width: 222
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a61ade110816814e8962bdc3f09b760
+      internalID: -1364084970762469421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buttonRed.png
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 985
+        width: 222
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d44e96713e8e34e4382de92104df8667
+      internalID: 7525693508291839157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buttonYellow.png
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 946
+        width: 222
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa7974eef0c9a5041b87f1a7f5226ad0
+      internalID: -4096383752446499499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cockpitBlue_0.png
+      rect:
+        serializedVersion: 2
+        x: 586
+        y: 949
+        width: 51
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 024c0234532e80f4d8cc970a45b077b6
+      internalID: 3837130071759734075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cockpitBlue_1.png
+      rect:
+        serializedVersion: 2
+        x: 736
+        y: 122
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c028e54f5a72af341adb1ced0e517ccf
+      internalID: -7711972654998331904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cockpitBlue_2.png
+      rect:
+        serializedVersion: 2
+        x: 684
+        y: 901
+        width: 42
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33547486868b361448e6d67b47f843e4
+      internalID: -3099669657829740735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cockpitBlue_3.png
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 579
+        width: 60
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f364b91e66d4c3428b4741250d41de9
+      internalID: 3415711516682148479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cockpitBlue_4.png
+      rect:
+        serializedVersion: 2
+        x: 637
+        y: 957
+        width: 47
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 655b3b4a8c6dd2e408d5d68ea943dd7c
+      internalID: -8238505057224571749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cockpitBlue_5.png
+      rect:
+        serializedVersion: 2
+        x: 627
+        y: 805
+        width: 48
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46d9835099b18244088d1cc98838b53e
+      internalID: 8837964912350116715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cockpitBlue_6.png
+      rect:
+        serializedVersion: 2
+        x: 684
+        y: 957
+        width: 42
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f23d28445b1280b45a798d8925a9113e
+      internalID: -5062666483008613354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cockpitBlue_7.png
+      rect:
+        serializedVersion: 2
+        x: 737
+        y: 411
+        width: 41
+        height: 71
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8675986e49df50d41b380c51b57d2c82
+      internalID: -8513700311864897586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cockpitGreen_0.png
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 724
+        width: 51
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7663513ea7620a4180005d7002181a4
+      internalID: -9218578022481777890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cockpitGreen_1.png
+      rect:
+        serializedVersion: 2
+        x: 734
+        y: 7
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20c3682ba95bae743b2da46f8656a1c0
+      internalID: 5452511911173042821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cockpitGreen_2.png
+      rect:
+        serializedVersion: 2
+        x: 696
+        y: 309
+        width: 42
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5c7bced555b550438d5814235de07fd
+      internalID: 3566929716083127086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cockpitGreen_3.png
+      rect:
+        serializedVersion: 2
+        x: 346
+        y: 729
+        width: 60
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c74198297476f7840805fb2629d5c2a1
+      internalID: -5472813101993058446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cockpitGreen_4.png
+      rect:
+        serializedVersion: 2
+        x: 627
+        y: 738
+        width: 47
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 865f83debe9ecbb43bfd8c63d14b1d8e
+      internalID: -7116489491264138038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cockpitGreen_5.png
+      rect:
+        serializedVersion: 2
+        x: 694
+        y: 593
+        width: 42
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab7bc0baf846614498b19564275dab61
+      internalID: -2649269674437484070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cockpitGreen_6.png
+      rect:
+        serializedVersion: 2
+        x: 737
+        y: 482
+        width: 41
+        height: 71
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b508cb0167c9c8c478feec120da97fcc
+      internalID: 4282870453021652535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cockpitGreen_7.png
+      rect:
+        serializedVersion: 2
+        x: 602
+        y: 424
+        width: 48
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa3bd9fad45611f4489a1edff31b1efa
+      internalID: -2524788258451768313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cockpitRed_0.png
+      rect:
+        serializedVersion: 2
+        x: 535
+        y: 874
+        width: 51
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62d6b8bea3771b6469a95daa77b306c9
+      internalID: -3672171573856778257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cockpitRed_1.png
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 2
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05db7b4bc8b43bb4ba1ec6b1615400af
+      internalID: 5687129572882118783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cockpitRed_2.png
+      rect:
+        serializedVersion: 2
+        x: 718
+        y: 771
+        width: 42
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7241459e282bd1c46a5e8f8c56ecf9ff
+      internalID: 4319335202327419710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cockpitRed_3.png
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 302
+        width: 60
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86f80272f4c08bd47acba35119f50a6b
+      internalID: 7249890598902628553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cockpitRed_4.png
+      rect:
+        serializedVersion: 2
+        x: 647
+        y: 100
+        width: 47
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ccf06cfdc1aca8c46886de496572c27b
+      internalID: -2058288929581515113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cockpitRed_5.png
+      rect:
+        serializedVersion: 2
+        x: 605
+        y: 242
+        width: 48
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c59cc67dd9016346bdbc01125fc607b
+      internalID: 8467282898467345583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cockpitRed_6.png
+      rect:
+        serializedVersion: 2
+        x: 736
+        y: 162
+        width: 42
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d203990e48b047443a3284b1b7e025a6
+      internalID: -7718353217241618634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cockpitRed_7.png
+      rect:
+        serializedVersion: 2
+        x: 736
+        y: 624
+        width: 41
+        height: 71
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb7687c51e0b8074586c9bfe2892a006
+      internalID: -2136137060809322968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cockpitYellow_0.png
+      rect:
+        serializedVersion: 2
+        x: 726
+        y: 904
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1162cb5fe9f3ca4384e1fa23d08959d
+      internalID: -5821682429057938928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cockpitYellow_1.png
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 654
+        width: 60
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 723fa4f8e0089f9488cbd607f0e538d1
+      internalID: -8393596365437651747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cockpitYellow_2.png
+      rect:
+        serializedVersion: 2
+        x: 637
+        y: 890
+        width: 47
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e99770c04cfaef45b225d806d1f5182
+      internalID: 8201889261261836938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cockpitYellow_3.png
+      rect:
+        serializedVersion: 2
+        x: 607
+        y: 167
+        width: 48
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c42f22d8f5e56cf4c9433fe77e268d15
+      internalID: 8918626645854242598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cockpitYellow_4.png
+      rect:
+        serializedVersion: 2
+        x: 696
+        y: 695
+        width: 42
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56295bde1757bd74eb87616cedecb5ff
+      internalID: 6463090127283316257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cockpitYellow_5.png
+      rect:
+        serializedVersion: 2
+        x: 736
+        y: 553
+        width: 41
+        height: 71
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 467e9373d94135049bdd9c8fe1d497b8
+      internalID: 5576142823379367555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cockpitYellow_6.png
+      rect:
+        serializedVersion: 2
+        x: 734
+        y: 47
+        width: 42
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 995e41c3b7b7acf499670d0df93f781e
+      internalID: 4883956002856256234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cockpitYellow_7.png
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 574
+        width: 51
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e70971db0838fba48b7fd9b1d58a38d2
+      internalID: 2735845915108849529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cursor.png
+      rect:
+        serializedVersion: 2
+        x: 797
+        y: 818
+        width: 30
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99030b0e0016a0543989121019797719
+      internalID: -5953348466652540503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemyBlack1.png
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 212
+        width: 93
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53cad10cf59edab4fb68eadf68b8bddf
+      internalID: -4508698113951077659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemyBlack2.png
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 336
+        width: 104
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 623ba541b275dc9428c5f2b30566d795
+      internalID: 4959539353589005249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemyBlack3.png
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 784
+        width: 103
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be61b8835ae2e7a4099a4a220049c6cb
+      internalID: -6619663906675191081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemyBlack4.png
+      rect:
+        serializedVersion: 2
+        x: 518
+        y: 615
+        width: 82
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b504aebbda7f1d64b8fb91f46b95b4b9
+      internalID: -8763662198294554495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemyBlack5.png
+      rect:
+        serializedVersion: 2
+        x: 346
+        y: 790
+        width: 97
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4efe7e342e17bd4b98c2186a8ab028a
+      internalID: -2287361923395422921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemyBlue1.png
+      rect:
+        serializedVersion: 2
+        x: 425
+        y: 472
+        width: 93
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5c7a844b2bb0314f821ff3941d9207b
+      internalID: 3328328576997583141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemyBlue2.png
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 647
+        width: 104
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9692b0c447c2f0a4a9096cbf89c39fe8
+      internalID: 7774770200307891486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemyBlue3.png
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 940
+        width: 103
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1407f0bdfb2939499a269171d009bb5
+      internalID: -2957173371371200949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemyBlue4.png
+      rect:
+        serializedVersion: 2
+        x: 518
+        y: 531
+        width: 82
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f43a62880aaea0b4f917c9f85da24ce4
+      internalID: -7052345004396845694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemyBlue5.png
+      rect:
+        serializedVersion: 2
+        x: 421
+        y: 126
+        width: 97
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a303688c41dea94889906ba1a305b08
+      internalID: 1079199761341311137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemyGreen1.png
+      rect:
+        serializedVersion: 2
+        x: 425
+        y: 388
+        width: 93
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2500b6e3144f3584f9ab67ae3b9cfbf4
+      internalID: -6610940037711747316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemyGreen2.png
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 528
+        width: 104
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71281cd27b2227d4b885e9482efb462c
+      internalID: 9053789733962595892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemyGreen3.png
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 444
+        width: 103
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d980bf1b93f82214f9de44cfcd90c650
+      internalID: 3658282600550741179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemyGreen4.png
+      rect:
+        serializedVersion: 2
+        x: 518
+        y: 447
+        width: 82
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef5630572dc2bb24c82003219deb806b
+      internalID: 1371635291033550049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemyGreen5.png
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 33
+        width: 97
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d2414e1b6c979e4593185069d764c15
+      internalID: 4307901932540739245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemyRed1.png
+      rect:
+        serializedVersion: 2
+        x: 425
+        y: 556
+        width: 93
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 241ab660ed7c8d349b2f0c045b0d15bb
+      internalID: -8535788189756399308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemyRed2.png
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 420
+        width: 104
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c78cb2a21a0be704f9659330da695852
+      internalID: -4522803996747795011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemyRed3.png
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 360
+        width: 103
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 020e1edeee6ec204fbee8a27659ad7a4
+      internalID: 1021604507497806049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemyRed4.png
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 363
+        width: 82
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a0b39823894c8c4bbbb8899d4bc6257
+      internalID: -1655781334524724447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemyRed5.png
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 296
+        width: 97
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54b87277a03fe0346b571685e996ae33
+      internalID: 5645763318122690536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: engine1.png
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 94
+        width: 38
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 004aebaf9ed82e442b9c02a2b27a0721
+      internalID: 7378301040880279657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: engine2.png
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 308
+        width: 42
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39bfd4efe0df7ae4d9bbad8ad93731a8
+      internalID: 6203124734314757198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: engine3.png
+      rect:
+        serializedVersion: 2
+        x: 644
+        y: 0
+        width: 27
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a07d22e184a58c844815b72f2a78be9e
+      internalID: -2561293471896255696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: engine4.png
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 739
+        width: 49
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 935fc94d1529e664499c74dd4eeb609d
+      internalID: -2852872388609347510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: engine5.png
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 504
+        width: 44
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d253de335a246d4ba3d363dd1426b3e
+      internalID: -7393969260800644548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire00.png
+      rect:
+        serializedVersion: 2
+        x: 827
+        y: 859
+        width: 16
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3fcafaf89a7aee044b79ba23eb05bb6a
+      internalID: 1351740812517389558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire01.png
+      rect:
+        serializedVersion: 2
+        x: 828
+        y: 787
+        width: 14
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa32b746c195b4c41b722793ed71f140
+      internalID: 8102419236820848756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire02.png
+      rect:
+        serializedVersion: 2
+        x: 827
+        y: 329
+        width: 14
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8af66731c06a997468a1873ba78db05d
+      internalID: 8454783048166867450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire03.png
+      rect:
+        serializedVersion: 2
+        x: 829
+        y: 553
+        width: 14
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ba4cc8dc06171e4198a2a97aef2c9b7
+      internalID: 3073899960460502104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire04.png
+      rect:
+        serializedVersion: 2
+        x: 831
+        y: 993
+        width: 14
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce75552ed399c8f41bc997d4869fc94b
+      internalID: -8158588119256436573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire05.png
+      rect:
+        serializedVersion: 2
+        x: 834
+        y: 694
+        width: 14
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f3f6228aa5fc394daee07aee2c35e80
+      internalID: 7249783839268456832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire06.png
+      rect:
+        serializedVersion: 2
+        x: 835
+        y: 491
+        width: 14
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c7df67609ff1364b84f00d753810727
+      internalID: -1106769346293956970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire07.png
+      rect:
+        serializedVersion: 2
+        x: 835
+        y: 663
+        width: 14
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f4c417d78c8aa745bc731fc29a8b908
+      internalID: 4160354023047995600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire08.png
+      rect:
+        serializedVersion: 2
+        x: 827
+        y: 117
+        width: 16
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59a50f78e217091469e548538b06dc54
+      internalID: -1409274899496079971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire09.png
+      rect:
+        serializedVersion: 2
+        x: 811
+        y: 321
+        width: 16
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09b80d4563019d84faf7a7697d7a5e72
+      internalID: -4440871810498457145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire10.png
+      rect:
+        serializedVersion: 2
+        x: 812
+        y: 778
+        width: 16
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49edc133bd00a1442bc35f67f521108f
+      internalID: 6048276507865764938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire11.png
+      rect:
+        serializedVersion: 2
+        x: 835
+        y: 598
+        width: 14
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc065dabfed8258419dadbb707e635a1
+      internalID: 2550652039553797809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire12.png
+      rect:
+        serializedVersion: 2
+        x: 835
+        y: 459
+        width: 14
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92c36a4bc3a9f6c47a708b31c303e58d
+      internalID: 6076265968685442356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire13.png
+      rect:
+        serializedVersion: 2
+        x: 835
+        y: 629
+        width: 14
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc9cc42d977bda24087c5fb4860d9366
+      internalID: -3026313772208464660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire14.png
+      rect:
+        serializedVersion: 2
+        x: 831
+        y: 962
+        width: 14
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e94574aff32aa54780c701c263319e7
+      internalID: -6511428812986920385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire15.png
+      rect:
+        serializedVersion: 2
+        x: 829
+        y: 522
+        width: 14
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce64ae428fc71154d988fd58bd8c0e22
+      internalID: -3284863241781250885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire16.png
+      rect:
+        serializedVersion: 2
+        x: 828
+        y: 725
+        width: 14
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8132452a33c56a246b32894eedfff00f
+      internalID: 8752297365800118195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire17.png
+      rect:
+        serializedVersion: 2
+        x: 828
+        y: 756
+        width: 14
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ae53905be0a930479fa341939442365
+      internalID: 6548886528512625061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire18.png
+      rect:
+        serializedVersion: 2
+        x: 827
+        y: 818
+        width: 16
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2de87d95a788f344a96a45478c2146b1
+      internalID: -1036965136504807210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire19.png
+      rect:
+        serializedVersion: 2
+        x: 812
+        y: 737
+        width: 16
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc7b0a3caa40ad44ea770d30ff2e4c84
+      internalID: 437340546767797571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gun00.png
+      rect:
+        serializedVersion: 2
+        x: 827
+        y: 81
+        width: 16
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cccb9370b07abfe449cc64ffd413e88a
+      internalID: -3321541064797330735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gun01.png
+      rect:
+        serializedVersion: 2
+        x: 810
+        y: 124
+        width: 17
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53aeca679f3d75441ac29e99bf40f54d
+      internalID: 7393883130103053727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gun02.png
+      rect:
+        serializedVersion: 2
+        x: 829
+        y: 377
+        width: 14
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86eb18098283e6c4a800111ee353c712
+      internalID: -6003376888718104736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gun03.png
+      rect:
+        serializedVersion: 2
+        x: 809
+        y: 187
+        width: 20
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18fc391caa08b0d47acb4d52e58af2b2
+      internalID: 7584171206972568781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gun04.png
+      rect:
+        serializedVersion: 2
+        x: 827
+        y: 899
+        width: 16
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7240f7a55ab58d547979390fe660108d
+      internalID: -7645379865865487777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gun05.png
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 983
+        width: 21
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d25d55b4e84a02b4a8bc2196d3675894
+      internalID: -5366083449385457677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gun06.png
+      rect:
+        serializedVersion: 2
+        x: 810
+        y: 86
+        width: 17
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d08f32403dc98941b5868e6342aa1d0
+      internalID: -5939399024722635814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gun07.png
+      rect:
+        serializedVersion: 2
+        x: 829
+        y: 187
+        width: 14
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fffbcf3f114d05642b18411b209753eb
+      internalID: -8004872856070739849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gun08.png
+      rect:
+        serializedVersion: 2
+        x: 848
+        y: 714
+        width: 10
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d60c4ceb4e0b1340b77653f7328a125
+      internalID: -56488909394249877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gun09.png
+      rect:
+        serializedVersion: 2
+        x: 809
+        y: 361
+        width: 20
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76b00a1059543884f92cd265879c23a6
+      internalID: -5830389129200487595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gun10.png
+      rect:
+        serializedVersion: 2
+        x: 808
+        y: 11
+        width: 20
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ada80065f5e68c34aa7eadbf708c5c05
+      internalID: 2472613412994592295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laserBlue01.png
+      rect:
+        serializedVersion: 2
+        x: 856
+        y: 549
+        width: 9
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b8d3dcf44ffb35449eda689215d0985
+      internalID: 2921470668926288970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laserBlue02.png
+      rect:
+        serializedVersion: 2
+        x: 841
+        y: 340
+        width: 13
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0eac2ca82bd6bca4f84d6a0e24c9b11d
+      internalID: 3602526423769409086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laserBlue03.png
+      rect:
+        serializedVersion: 2
+        x: 856
+        y: 930
+        width: 9
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9bd97dd7771005e40b5eeb9ae1688d55
+      internalID: -1020090064025625753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laserBlue04.png
+      rect:
+        serializedVersion: 2
+        x: 835
+        y: 422
+        width: 13
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed8ad8a9f50a13d4eba7d6e9c0f4e5bd
+      internalID: -7726741253512866194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laserBlue05.png
+      rect:
+        serializedVersion: 2
+        x: 858
+        y: 512
+        width: 9
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a47a92027a0c1664598ea59cd7f5c3c3
+      internalID: -1129006268114760397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laserBlue06.png
+      rect:
+        serializedVersion: 2
+        x: 835
+        y: 235
+        width: 13
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15531357c0f60dc40bdef685efec5cf7
+      internalID: -655757784164609137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laserBlue07.png
+      rect:
+        serializedVersion: 2
+        x: 856
+        y: 212
+        width: 9
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 749dccc7901b16f4cbfeb1b6ba0b4c0c
+      internalID: 8353321399318934863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laserBlue08.png
+      rect:
+        serializedVersion: 2
+        x: 596
+        y: 17
+        width: 48
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f2303196d51c5541a39f06c19772903
+      internalID: -6498647964698370199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laserBlue09.png
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 653
+        width: 48
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8137e2f9f43fa694196b6e5c72e843e6
+      internalID: 4016741044235484074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laserBlue10.png
+      rect:
+        serializedVersion: 2
+        x: 740
+        y: 263
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c7f86df13f7f294d9cc57f3155b9b9c
+      internalID: 7869088444859223245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laserBlue11.png
+      rect:
+        serializedVersion: 2
+        x: 698
+        y: 192
+        width: 38
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a82c999327269284a8ef8d35d002c210
+      internalID: 1364049590943795260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laserBlue12.png
+      rect:
+        serializedVersion: 2
+        x: 835
+        y: 272
+        width: 13
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8dff46f99d9d9f4496be90ef121e1c4
+      internalID: -5828105468193207594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laserBlue13.png
+      rect:
+        serializedVersion: 2
+        x: 856
+        y: 98
+        width: 9
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ebd428ab85ad7644b728d9e5538720d
+      internalID: -6397823618000266404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laserBlue14.png
+      rect:
+        serializedVersion: 2
+        x: 842
+        y: 761
+        width: 13
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0c58360568e33d409064410ea5226e3
+      internalID: -1788009680952464340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laserBlue15.png
+      rect:
+        serializedVersion: 2
+        x: 849
+        y: 487
+        width: 9
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2b59006f04d4084694fa00be38e4c83
+      internalID: -8820162796460001185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laserBlue16.png
+      rect:
+        serializedVersion: 2
+        x: 843
+        y: 908
+        width: 13
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8cb62179eff6d55479441ff5ae7a7911
+      internalID: 2355182561314163980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laserGreen01.png
+      rect:
+        serializedVersion: 2
+        x: 740
+        y: 300
+        width: 37
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cfd8faa801538974e8cd3d85d43a78aa
+      internalID: 8738871166983892941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laserGreen02.png
+      rect:
+        serializedVersion: 2
+        x: 843
+        y: 851
+        width: 13
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a733d06da3ca8f1469f69ec94d2e1436
+      internalID: 7101365085137390762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laserGreen03.png
+      rect:
+        serializedVersion: 2
+        x: 855
+        y: 794
+        width: 9
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6ae07bdb29ff4e408c651ab7901960c
+      internalID: -4924013827390446724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laserGreen04.png
+      rect:
+        serializedVersion: 2
+        x: 848
+        y: 422
+        width: 13
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1093170640af4da4e90f837807f83311
+      internalID: 7989082572873131969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laserGreen05.png
+      rect:
+        serializedVersion: 2
+        x: 854
+        y: 348
+        width: 9
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7594ee5208ecb9a4c9c453777be2e120
+      internalID: 230797344319437898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laserGreen06.png
+      rect:
+        serializedVersion: 2
+        x: 845
+        y: 967
+        width: 13
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6fdfc6ba9b2b2f4ea6d0676c829d7a7
+      internalID: -5323291335239706552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laserGreen07.png
+      rect:
+        serializedVersion: 2
+        x: 849
+        y: 603
+        width: 9
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7cd2fea2bb6561d4e9b5bc3f5e40ea81
+      internalID: 4960783951515338031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laserGreen08.png
+      rect:
+        serializedVersion: 2
+        x: 848
+        y: 249
+        width: 13
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0fb54abefb075e44781e1aaf6bfa6b33
+      internalID: 359081235099770183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laserGreen09.png
+      rect:
+        serializedVersion: 2
+        x: 856
+        y: 893
+        width: 9
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3bb7a8b66fcdfd747a124641cdbd6ca5
+      internalID: 1750533318122431778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laserGreen10.png
+      rect:
+        serializedVersion: 2
+        x: 843
+        y: 544
+        width: 13
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6ee260b926ace0458e8870bd5d4868f
+      internalID: -2371731189906419056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laserGreen11.png
+      rect:
+        serializedVersion: 2
+        x: 849
+        y: 660
+        width: 9
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4d46814e383d6846bd586727fe4561c
+      internalID: 8912471915944267254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laserGreen12.png
+      rect:
+        serializedVersion: 2
+        x: 843
+        y: 385
+        width: 13
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3eaa63160dcd64f40bcbb66408767299
+      internalID: -4543711948003703377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laserGreen13.png
+      rect:
+        serializedVersion: 2
+        x: 858
+        y: 987
+        width: 9
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 015daa3f5724b4740bf84ce2a6467faa
+      internalID: -8669993147749747910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laserGreen14.png
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 738
+        width: 48
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47664a74a2ca8e7429ea8a21468d054e
+      internalID: -8188983256552683446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laserGreen15.png
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 796
+        width: 48
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b401eead77b722649a7c851eaef6bf75
+      internalID: -3492086862585303054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laserGreen16.png
+      rect:
+        serializedVersion: 2
+        x: 760
+        y: 795
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b04ee0a7c2de89141bab0f9c03af5103
+      internalID: -7820833839027232870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laserRed01.png
+      rect:
+        serializedVersion: 2
+        x: 858
+        y: 740
+        width: 9
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7c8a7a383624fe4084f06e32bc570d4
+      internalID: -5187347373322019675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laserRed02.png
+      rect:
+        serializedVersion: 2
+        x: 843
+        y: 10
+        width: 13
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f17710a88c17254988d95773a9ef3a1
+      internalID: 2795317151694090127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laserRed03.png
+      rect:
+        serializedVersion: 2
+        x: 856
+        y: 385
+        width: 9
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41055325032491b4cab27d751f554367
+      internalID: 3661578761546000931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laserRed04.png
+      rect:
+        serializedVersion: 2
+        x: 843
+        y: 47
+        width: 13
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3eb2e657903a7d4a9670e0ded927848
+      internalID: -8293362312686519738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laserRed05.png
+      rect:
+        serializedVersion: 2
+        x: 856
+        y: 4
+        width: 9
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c803020d0edd9e340ae2b406d64112af
+      internalID: 8152213185097003811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laserRed06.png
+      rect:
+        serializedVersion: 2
+        x: 843
+        y: 84
+        width: 13
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17f83f1d050c93348a7ca648cedea107
+      internalID: -7875750932089707907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laserRed07.png
+      rect:
+        serializedVersion: 2
+        x: 856
+        y: 856
+        width: 9
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cba57210fcda14544b45cc897fdaeb9a
+      internalID: 2244685038557466302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laserRed08.png
+      rect:
+        serializedVersion: 2
+        x: 580
+        y: 317
+        width: 48
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dedbcf32cb72c0f46b0a2749bca5cb2b
+      internalID: 969807161020003136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laserRed09.png
+      rect:
+        serializedVersion: 2
+        x: 602
+        y: 378
+        width: 48
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d0c27219e5d1614782cdf0e90b3cb66
+      internalID: 541864809410041170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laserRed10.png
+      rect:
+        serializedVersion: 2
+        x: 738
+        y: 338
+        width: 37
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78785f6dfe8a11444b4ae0c2e699f922
+      internalID: -6744653185857572967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laserRed11.png
+      rect:
+        serializedVersion: 2
+        x: 737
+        y: 374
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8738d5ce27a844a4ab9992dc6004bc94
+      internalID: 7101187009279582148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laserRed12.png
+      rect:
+        serializedVersion: 2
+        x: 843
+        y: 121
+        width: 13
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f467f34956796e448bf8a5b15ef1fe0
+      internalID: -7889634319068221004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laserRed13.png
+      rect:
+        serializedVersion: 2
+        x: 856
+        y: 155
+        width: 9
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1cd85fa250831b44bb64f5616fdb7fbb
+      internalID: 390198226611088680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laserRed14.png
+      rect:
+        serializedVersion: 2
+        x: 843
+        y: 178
+        width: 13
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5fe6764bc8c41d468238d995d11952f
+      internalID: -788753711389941659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laserRed15.png
+      rect:
+        serializedVersion: 2
+        x: 856
+        y: 41
+        width: 9
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d8897a4d3fc47644992efd0a6992ec9
+      internalID: 4369162093305101258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laserRed16.png
+      rect:
+        serializedVersion: 2
+        x: 848
+        y: 286
+        width: 13
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e71a02ffb56654a45b57960e746f0b85
+      internalID: -3604903149283597745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meteorBrown_big1.png
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 276
+        width: 101
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76a1061cd58124f40bfa2d778c8030ad
+      internalID: -8339005489133269724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meteorBrown_big2.png
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 406
+        width: 120
+        height: 98
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89dd6d757ef5da74a873dac0f96ece05
+      internalID: -947072167030862117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meteorBrown_big3.png
+      rect:
+        serializedVersion: 2
+        x: 518
+        y: 132
+        width: 89
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0dcdeafe2055e0439284882e0944fe8
+      internalID: -6867972004390754146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meteorBrown_big4.png
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 476
+        width: 98
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b5b9b4bfd5a88e448f2bc3e86c3c9eb
+      internalID: 987805300098070315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meteorBrown_med1.png
+      rect:
+        serializedVersion: 2
+        x: 651
+        y: 534
+        width: 43
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a51c420fd0700064987928275d1123e8
+      internalID: 3467865264933486527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meteorBrown_med3.png
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 532
+        width: 45
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc267e475865f9b488c67dd0011e849e
+      internalID: 6864235435029977924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meteorBrown_small1.png
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 762
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f23ee5330b0fe2c4886c26ddfb1f40d1
+      internalID: -8250649375594755563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meteorBrown_small2.png
+      rect:
+        serializedVersion: 2
+        x: 778
+        y: 411
+        width: 29
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f28c0f0a425968e4aba061621f5c1da3
+      internalID: -4431388003160355013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meteorBrown_tiny1.png
+      rect:
+        serializedVersion: 2
+        x: 346
+        y: 192
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4322db8b613d86479dde7a425cdc8f7
+      internalID: -8177379104631238225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meteorBrown_tiny2.png
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 195
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6541d4150c3ce6248b99ba3773d79fe4
+      internalID: -215236285221329341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meteorGrey_big1.png
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 192
+        width: 101
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ff5d3188a2a9154297883a98cfca4b3
+      internalID: 1290327954954949088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meteorGrey_big2.png
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 308
+        width: 120
+        height: 98
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53863b099b49e724494a0fc16f8e09f6
+      internalID: -245694023857363278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meteorGrey_big3.png
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 214
+        width: 89
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dadc3606bb0dd5d4a9f82734c45bc010
+      internalID: -6366855468589548433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meteorGrey_big4.png
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 380
+        width: 98
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1591d5bec9ec7e43bda361d39af7edc
+      internalID: -6733909091500271354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meteorGrey_med1.png
+      rect:
+        serializedVersion: 2
+        x: 674
+        y: 762
+        width: 43
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c08e797f27e6194e97f4b6a254334af
+      internalID: 328092247259686149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meteorGrey_med2.png
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 532
+        width: 45
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 149421784d1b1e642a2413a8fb6fa9f3
+      internalID: -7611726189556237606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meteorGrey_small1.png
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 734
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8add5e81ebabf3e489814374f8324e2e
+      internalID: -1009192047567407995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meteorGrey_small2.png
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 585
+        width: 29
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ef14e1fb9ca1ba448211202706b8ce6
+      internalID: 3158903393190652685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meteorGrey_tiny1.png
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 192
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2eba51187451be9459c159e10ad8c945
+      internalID: -83818483404661103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meteorGrey_tiny2.png
+      rect:
+        serializedVersion: 2
+        x: 602
+        y: 363
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4412a738edea1324d95b99e8a38397f1
+      internalID: -4619880252180113523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: numeral0.png
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 361
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98cf38d6b75bf52449ae72ded1ea4aaa
+      internalID: -6683591975502130046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: numeral1.png
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 317
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eda92aafd891fec479348f6c18242f82
+      internalID: -4294954472446593215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: numeral2.png
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 715
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c8df669a5ba62c4bb3c076ba7c80bdb
+      internalID: 3621817367008345332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: numeral3.png
+      rect:
+        serializedVersion: 2
+        x: 580
+        y: 298
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c16c38b30a7b4a443ab5d6683b9f8b0a
+      internalID: 4484854336717043569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: numeral4.png
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 361
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33b647a6093662245b7129503e04bd09
+      internalID: -1213923486846579734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: numeral5.png
+      rect:
+        serializedVersion: 2
+        x: 628
+        y: 359
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ed889d464e080346bbe34ee6ae386a7
+      internalID: 7893153474798392062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: numeral6.png
+      rect:
+        serializedVersion: 2
+        x: 671
+        y: 3
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5cf887350748a2548a2e79dab189b213
+      internalID: -2526401654114208938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: numeral7.png
+      rect:
+        serializedVersion: 2
+        x: 690
+        y: 1
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7521266131bed146bc6d6bfcb16cff1
+      internalID: -2864947593817152609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: numeral8.png
+      rect:
+        serializedVersion: 2
+        x: 709
+        y: 1
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7457ce4939f22cd4db9671bea18fef19
+      internalID: 3422904947487961901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: numeral9.png
+      rect:
+        serializedVersion: 2
+        x: 491
+        y: 790
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: abef39e2cc2bbf540ba7c707785185d2
+      internalID: -1347516320188645758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: numeralX.png
+      rect:
+        serializedVersion: 2
+        x: 382
+        y: 193
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f4c0b6bda2af1149af4d62f81447073
+      internalID: 5111477472431342323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pill_blue.png
+      rect:
+        serializedVersion: 2
+        x: 674
+        y: 741
+        width: 22
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9dc2853f5b3038a4bb67fad709105986
+      internalID: 1731053707704713080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pill_green.png
+      rect:
+        serializedVersion: 2
+        x: 573
+        y: 14
+        width: 22
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78c5b6f8e677dd94e936a3c2bc40cc43
+      internalID: 5431849548235275718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pill_red.png
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 895
+        width: 22
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e9d30ea51203f04884cf8b3224de64b
+      internalID: 4582730908298752497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pill_yellow.png
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 874
+        width: 22
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd326faaade096b428e75f9137f9fac1
+      internalID: 8832732456259409462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: playerLife1_blue.png
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 640
+        width: 33
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ebb2c630d33d5e34d84adb35f18362a4
+      internalID: -6542045311909502710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: playerLife1_green.png
+      rect:
+        serializedVersion: 2
+        x: 535
+        y: 848
+        width: 33
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 181547ac2ff0cea4c888e9ac82570592
+      internalID: -280619407508743635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: playerLife1_orange.png
+      rect:
+        serializedVersion: 2
+        x: 777
+        y: 671
+        width: 33
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cbbbad535fc5c1147a6e2177bbdb6cef
+      internalID: -1645159840110871536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: playerLife1_red.png
+      rect:
+        serializedVersion: 2
+        x: 775
+        y: 697
+        width: 33
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2385d98238531474ea5fb295ddc1c6a0
+      internalID: -3656629337564959886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: playerLife2_blue.png
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 7
+        width: 37
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 847cb2a98032e6e449f54d7ebbe949fa
+      internalID: -2561021910363445414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: playerLife2_green.png
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 7
+        width: 37
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e841ee01271ae0744a4d2dc2223978b0
+      internalID: -4588254111092450104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: playerLife2_orange.png
+      rect:
+        serializedVersion: 2
+        x: 428
+        y: 7
+        width: 37
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e7ea82cfe08c474fb6dad5d83e0fc20
+      internalID: 2794106048496908037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: playerLife2_red.png
+      rect:
+        serializedVersion: 2
+        x: 502
+        y: 7
+        width: 37
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b34380019c1b9ea4f8c31d7f4fd984ff
+      internalID: 773177975261426795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: playerLife3_blue.png
+      rect:
+        serializedVersion: 2
+        x: 777
+        y: 613
+        width: 32
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6fc517647075d44a9b76a640f820ece
+      internalID: -1220450115188468911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: playerLife3_green.png
+      rect:
+        serializedVersion: 2
+        x: 778
+        y: 529
+        width: 32
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75cc2821ada015443a6153af4e946fa4
+      internalID: -6745620357319115206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: playerLife3_orange.png
+      rect:
+        serializedVersion: 2
+        x: 777
+        y: 286
+        width: 32
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d641b405da85a94b891b24601d2284e
+      internalID: 1550021549408369761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: playerLife3_red.png
+      rect:
+        serializedVersion: 2
+        x: 777
+        y: 555
+        width: 32
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e66470885b3501249b7376bc49522b65
+      internalID: 649100677075123729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: playerShip1_blue.png
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 8
+        width: 99
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6add0c5ee5ffac419037a42881d45c6
+      internalID: 2182010870586553233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: playerShip1_damage1.png
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 8
+        width: 99
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ead706d7d7d8cd49b62ad78e92690ef
+      internalID: 5437709037145618173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: playerShip1_damage2.png
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 715
+        width: 99
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af57315470441624f8c9dd8d82b6a5c3
+      internalID: -3443111094430537470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: playerShip1_damage3.png
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 790
+        width: 99
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d4895202219c044ba4cb8d35b05da39
+      internalID: 3645352653072340200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: playerShip1_green.png
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 572
+        width: 99
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 373c5ae0e79e534489ce3e32257c569f
+      internalID: 4086461823457673505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: playerShip1_orange.png
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 865
+        width: 99
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9c1cdea97d576948b9b03779d86ca52
+      internalID: 4851533150266067239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: playerShip1_red.png
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 117
+        width: 99
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8296831fee010f408fd080b33c4b1a3
+      internalID: 2288492929210822553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: playerShip2_blue.png
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 158
+        width: 112
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53e627ac2ee1d9641a4053cca7dd73f6
+      internalID: -8402970689181397014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: playerShip2_damage1.png
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 83
+        width: 112
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac57c7c3d307ded408103785eef92691
+      internalID: -5157739060846212607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: playerShip2_damage2.png
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 158
+        width: 112
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb25471ee4dda5242b962bddd03d826c
+      internalID: -2628411099061857690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: playerShip2_damage3.png
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 233
+        width: 112
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c9c811ad37e0fd47aaeda343e3ef098
+      internalID: -5422095630319474053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: playerShip2_green.png
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 83
+        width: 112
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a02f9d81b0e94ad43917f9ae177d9691
+      internalID: -1730901723975914595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: playerShip2_orange.png
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 233
+        width: 112
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e00c212f1d97d3348b2b08fb875398d3
+      internalID: -8625987278910882921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: playerShip2_red.png
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 8
+        width: 112
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4dea80e66ae27404ea702a20adf053c9
+      internalID: -6032558302687065339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: playerShip3_blue.png
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 210
+        width: 98
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ec892065c344574c8d25ff6373932c6
+      internalID: -6536287391458957408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: playerShip3_damage1.png
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 117
+        width: 98
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 751931cc0dd2a5f41b3337669bf1e438
+      internalID: -3310842626314209242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: playerShip3_damage2.png
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 42
+        width: 98
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33e6bfa21f919ff48aa14cafddd6fcb2
+      internalID: -8198575606760956096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: playerShip3_damage3.png
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 285
+        width: 98
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28b11908fc3c4c54d946a9f2bda8ec3b
+      internalID: -5401503732398968508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: playerShip3_green.png
+      rect:
+        serializedVersion: 2
+        x: 346
+        y: 874
+        width: 98
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c84146d6967b47438e62186472caae4
+      internalID: -6137316354593400248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: playerShip3_orange.png
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 640
+        width: 98
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b6cde9f04d4661438999a9c58fe8f4e
+      internalID: -2871634709916022068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: playerShip3_red.png
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 949
+        width: 98
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7420c00660edff840b16557c301d3d76
+      internalID: 1269724166452363602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: powerupBlue.png
+      rect:
+        serializedVersion: 2
+        x: 696
+        y: 662
+        width: 34
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f12666d5d1b2c77489fd0748c5e9c300
+      internalID: -602186881644547713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: powerupBlue_bolt.png
+      rect:
+        serializedVersion: 2
+        x: 539
+        y: 2
+        width: 34
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47eca0cbcf9191149a1d2d7551427d93
+      internalID: -6066535518541817694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: powerupBlue_shield.png
+      rect:
+        serializedVersion: 2
+        x: 777
+        y: 312
+        width: 34
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f50c71ce69a60fe4489ce03752ac52b5
+      internalID: 6015116524536153082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: powerupBlue_star.png
+      rect:
+        serializedVersion: 2
+        x: 776
+        y: 96
+        width: 34
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d4f91baa7f1f2441b9b1e51510f2f6d
+      internalID: 118367418820200075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: powerupGreen.png
+      rect:
+        serializedVersion: 2
+        x: 774
+        y: 378
+        width: 34
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20a9eedfbcc29094394bb78a25e43a60
+      internalID: 3808985181416546002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: powerupGreen_bolt.png
+      rect:
+        serializedVersion: 2
+        x: 766
+        y: 911
+        width: 34
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62e9b5a12bc24b847b286dedbcc9d4a3
+      internalID: -1838175905825336305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: powerupGreen_shield.png
+      rect:
+        serializedVersion: 2
+        x: 776
+        y: 129
+        width: 34
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3683623efd58b874fbbc5f71ee03c4e6
+      internalID: -8971159898044158050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: powerupGreen_star.png
+      rect:
+        serializedVersion: 2
+        x: 651
+        y: 501
+        width: 34
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4783ac0257ff1645b5016233b189aa6
+      internalID: 8984519259080213226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: powerupRed.png
+      rect:
+        serializedVersion: 2
+        x: 491
+        y: 809
+        width: 34
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 382b1ef8fd791f442bd882fa7e245856
+      internalID: -6705204528405895651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: powerupRed_bolt.png
+      rect:
+        serializedVersion: 2
+        x: 775
+        y: 345
+        width: 34
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dfedc319ed782da4fbf3d67da16c1dab
+      internalID: 9172342809337266121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: powerupRed_shield.png
+      rect:
+        serializedVersion: 2
+        x: 776
+        y: 63
+        width: 34
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68e5fc7236d310c45a1100f9e8e7b328
+      internalID: 1614005536539247520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: powerupRed_star.png
+      rect:
+        serializedVersion: 2
+        x: 774
+        y: 14
+        width: 34
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e75bbdbe8d0174843ad95d9e2b354530
+      internalID: -8880370675338432249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: powerupYellow.png
+      rect:
+        serializedVersion: 2
+        x: 774
+        y: 230
+        width: 34
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: abd340733887906418248a968d8b5bdf
+      internalID: 2582644265671368683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: powerupYellow_bolt.png
+      rect:
+        serializedVersion: 2
+        x: 740
+        y: 230
+        width: 34
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9505dc3091ea1d4491ab82d9a749846
+      internalID: -4422006916996271244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: powerupYellow_shield.png
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 666
+        width: 34
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b10d74191056d0a4eb23a72af1976725
+      internalID: -2441030352292401404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: powerupYellow_star.png
+      rect:
+        serializedVersion: 2
+        x: 607
+        y: 134
+        width: 34
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a58db4e65d67b6b498353fab9ab825a6
+      internalID: 1003888302522366858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scratch1.png
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 194
+        width: 21
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e93136a8d3e3f14ba8839d3b7f9c8f4
+      internalID: -3650525781784792064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scratch2.png
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 967
+        width: 21
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 199cbc763d71abb4d9d08dacf8ecb7d5
+      internalID: 4763412265790839939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scratch3.png
+      rect:
+        serializedVersion: 2
+        x: 346
+        y: 717
+        width: 16
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 956e4028ac9dd53498581b4b7b56354e
+      internalID: -6937849387448672213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shield1.png
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 504
+        width: 133
+        height: 108
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0536d6c62ec36a44191ef5d9ad53bca6
+      internalID: 8055636226449465537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shield2.png
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 612
+        width: 143
+        height: 119
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f9228c5b8625774e807faf745ac9c6b
+      internalID: -3102023160662443161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shield3.png
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 731
+        width: 144
+        height: 137
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c16e73377a84c7f4d939740e988249d9
+      internalID: -518384228343214380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shield_bronze.png
+      rect:
+        serializedVersion: 2
+        x: 797
+        y: 851
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fec8ce86e03c53a4e8892035800a9ba7
+      internalID: -3381572517487309965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shield_gold.png
+      rect:
+        serializedVersion: 2
+        x: 797
+        y: 881
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2a4b553d0e667b4bb9fa04daf905b5f
+      internalID: -6720619369845810135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shield_silver.png
+      rect:
+        serializedVersion: 2
+        x: 778
+        y: 170
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9baa57ee7216eee41aff3ee688eda0c3
+      internalID: 6045611832034831495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: speed.png
+      rect:
+        serializedVersion: 2
+        x: 858
+        y: 632
+        width: 7
+        height: 108
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da3b973745cf62848a3106fb5ca95e50
+      internalID: 160773421271448107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: star1.png
+      rect:
+        serializedVersion: 2
+        x: 628
+        y: 319
+        width: 25
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f984ab213d4f8647a306a8d23f2cc98
+      internalID: 3310680609277666421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: star2.png
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 916
+        width: 25
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02c502aa83da6b140997bf07b6e5a7b9
+      internalID: -6263555544328688002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: star3.png
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 700
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0009fbd2f59ba3e479515f7b8da59128
+      internalID: -6844159849076111448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: star_bronze.png
+      rect:
+        serializedVersion: 2
+        x: 778
+        y: 200
+        width: 31
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82f03bd031d43bd4c871933d3300bb94
+      internalID: 7046362299675551346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: star_gold.png
+      rect:
+        serializedVersion: 2
+        x: 778
+        y: 437
+        width: 31
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ebb503698913db4c96c7c667df039e3
+      internalID: 8631437530027257385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: star_silver.png
+      rect:
+        serializedVersion: 2
+        x: 778
+        y: 467
+        width: 31
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1544401a548a0034d8774fc88fcbbd6b
+      internalID: -6440998597012720240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: things_bronze.png
+      rect:
+        serializedVersion: 2
+        x: 778
+        y: 497
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 899f56eedccd8b24d8a6b95b42a47b0b
+      internalID: 7244200078384958924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: things_gold.png
+      rect:
+        serializedVersion: 2
+        x: 777
+        y: 581
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe69bcb38fcc3db47bbc8dc06ac3cb34
+      internalID: 4436854889672128892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: things_silver.png
+      rect:
+        serializedVersion: 2
+        x: 777
+        y: 639
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89c0e6a100cc68f40b69ec866c16dd63
+      internalID: -5806172446307965833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: turretBase_big.png
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 1
+        width: 41
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2799eb70a07f3b4ba564c707c10a647
+      internalID: 2595461128045109910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: turretBase_small.png
+      rect:
+        serializedVersion: 2
+        x: 808
+        y: 697
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c4e0ae12e89f4c4f98820df5e06021d
+      internalID: -160871276437787785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ufoBlue.png
+      rect:
+        serializedVersion: 2
+        x: 444
+        y: 842
+        width: 91
+        height: 91
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64cdd92e39ab7594e9f7aac7e807ef30
+      internalID: 147892167238007827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ufoGreen.png
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 699
+        width: 91
+        height: 91
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 607b05d79060d3149b98aa1e9fb55572
+      internalID: 6251165375043374333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ufoRed.png
+      rect:
+        serializedVersion: 2
+        x: 444
+        y: 933
+        width: 91
+        height: 91
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a66f7ae3b90d9a34faf01b2303c428bf
+      internalID: -101515349923921600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ufoYellow.png
+      rect:
+        serializedVersion: 2
+        x: 505
+        y: 35
+        width: 91
+        height: 91
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6450419df3c5fef4189d874872c90474
+      internalID: -2662195974771000781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wingBlue_0.png
+      rect:
+        serializedVersion: 2
+        x: 647
+        y: 22
+        width: 45
+        height: 78
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 455a4d052ff3afc429cee33aaa64da7c
+      internalID: -3282575277786821151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wingBlue_1.png
+      rect:
+        serializedVersion: 2
+        x: 738
+        y: 699
+        width: 37
+        height: 72
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db188d56d7ef72247bed2a504ea33104
+      internalID: -3778975856283944473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wingBlue_2.png
+      rect:
+        serializedVersion: 2
+        x: 805
+        y: 940
+        width: 26
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0851168a02d8b8740a813695aec2c4ae
+      internalID: 7761993133193807061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wingBlue_3.png
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 499
+        width: 51
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d6756acaea7d3b41813abffdabf373f
+      internalID: -6655413271573264397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wingBlue_4.png
+      rect:
+        serializedVersion: 2
+        x: 692
+        y: 20
+        width: 42
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 101e714757784d047a65c1a8f656471c
+      internalID: -9059544785123621154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wingBlue_5.png
+      rect:
+        serializedVersion: 2
+        x: 596
+        y: 63
+        width: 51
+        height: 69
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f785f02321ce2b5428c7ddfd14b358d9
+      internalID: -2186735482993268004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wingBlue_6.png
+      rect:
+        serializedVersion: 2
+        x: 694
+        y: 103
+        width: 42
+        height: 74
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 492b54495d3463342bbe3607bf7da46d
+      internalID: -5880208026252939805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wingBlue_7.png
+      rect:
+        serializedVersion: 2
+        x: 675
+        y: 807
+        width: 43
+        height: 83
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 026b09c0ae40be842a1259fd5c829c74
+      internalID: 7670949949857693242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wingGreen_0.png
+      rect:
+        serializedVersion: 2
+        x: 650
+        y: 421
+        width: 45
+        height: 78
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43fafa3c931d4b74b925ffd7c1d06995
+      internalID: -8896654310896569240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wingGreen_1.png
+      rect:
+        serializedVersion: 2
+        x: 775
+        y: 723
+        width: 37
+        height: 72
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cff4ad9dc4cf4a94a800b7cb8c1f8a4f
+      internalID: 8605713137387789721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wingGreen_2.png
+      rect:
+        serializedVersion: 2
+        x: 809
+        y: 413
+        width: 26
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da9e2b6cc497cc74baa031a88ac318d3
+      internalID: -8461906419013839718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wingGreen_3.png
+      rect:
+        serializedVersion: 2
+        x: 535
+        y: 949
+        width: 51
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d0538b14bfd4d04c930cbcad8de6b2e
+      internalID: -6018976141646020760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wingGreen_4.png
+      rect:
+        serializedVersion: 2
+        x: 694
+        y: 513
+        width: 42
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26cf1769bc6c9a64a9e32b88a1236d9d
+      internalID: 7002217320564373851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wingGreen_5.png
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 704
+        width: 51
+        height: 69
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3b585597f1963549ad91988a5a6d2f8
+      internalID: 2235845330354079781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wingGreen_6.png
+      rect:
+        serializedVersion: 2
+        x: 695
+        y: 439
+        width: 42
+        height: 74
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74ed74a31aae0454c875bc022a002421
+      internalID: -613224613277202472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wingGreen_7.png
+      rect:
+        serializedVersion: 2
+        x: 655
+        y: 177
+        width: 43
+        height: 83
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b976d2e1ca3e51f42952a21d700b1dba
+      internalID: -2688075590036205744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wingRed_0.png
+      rect:
+        serializedVersion: 2
+        x: 809
+        y: 228
+        width: 26
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1eb76f9246ccd8d43be3d64d55da6878
+      internalID: 5170150559982808655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wingRed_1.png
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 952
+        width: 37
+        height: 72
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b3cff0532eafd84583c089692501142
+      internalID: -6560281522590793372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wingRed_2.png
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 649
+        width: 51
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b6d640595166614e95b012b9594ce1c
+      internalID: 8028395055862580672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wingRed_3.png
+      rect:
+        serializedVersion: 2
+        x: 698
+        y: 229
+        width: 42
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b27f82acfd21ed84eac9b895ddfcdcd5
+      internalID: 15985396131609172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wingRed_4.png
+      rect:
+        serializedVersion: 2
+        x: 586
+        y: 880
+        width: 51
+        height: 69
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d1c7f253d6ce684d8ba6ef19f61f334
+      internalID: -175158354727378939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wingRed_5.png
+      rect:
+        serializedVersion: 2
+        x: 718
+        y: 827
+        width: 42
+        height: 74
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 037c865708d95e2489c40c2ca7dafa56
+      internalID: -1364340226851392766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wingRed_6.png
+      rect:
+        serializedVersion: 2
+        x: 653
+        y: 260
+        width: 43
+        height: 83
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81aa6caadfb44084984cdf1dcf4bf916
+      internalID: -64649555326737295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wingRed_7.png
+      rect:
+        serializedVersion: 2
+        x: 651
+        y: 660
+        width: 45
+        height: 78
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5c9b65d0cb94d14db42b822a6ad9ec4
+      internalID: 3066467157699729279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wingYellow_0.png
+      rect:
+        serializedVersion: 2
+        x: 650
+        y: 343
+        width: 45
+        height: 78
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9fd2c0a4fe5cccc4a85b4eb211a6f04e
+      internalID: 8941380569427585736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wingYellow_1.png
+      rect:
+        serializedVersion: 2
+        x: 760
+        y: 832
+        width: 37
+        height: 72
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e2fe5e62c413234cbd3b7c0e65b9615
+      internalID: 4481087292963261297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wingYellow_2.png
+      rect:
+        serializedVersion: 2
+        x: 809
+        y: 587
+        width: 26
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33c3fc33995a40c4d86e84ab3f724113
+      internalID: 401062210434779672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wingYellow_3.png
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 799
+        width: 51
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92635bbd7e3795a47846128f4da4308b
+      internalID: -491459270415945105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wingYellow_4.png
+      rect:
+        serializedVersion: 2
+        x: 726
+        y: 944
+        width: 42
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4adb342c8dfe0d4fb0c2d129950ea5c
+      internalID: -7321030423937969098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wingYellow_5.png
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 773
+        width: 51
+        height: 69
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2932ec140e28e424b857d230f5eb0967
+      internalID: -4966777128784167215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wingYellow_6.png
+      rect:
+        serializedVersion: 2
+        x: 695
+        y: 365
+        width: 42
+        height: 74
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7714de1ac89ba864b9f066861cbe2f8c
+      internalID: -2938354190850396204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wingYellow_7.png
+      rect:
+        serializedVersion: 2
+        x: 651
+        y: 577
+        width: 43
+        height: 83
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44c675c2126abb2499216580c655fc66
+      internalID: 1235163480012904704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
