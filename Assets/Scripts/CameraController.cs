@@ -16,7 +16,6 @@ public class CameraController : MonoBehaviour
 
     private void GameManagerOnOnShipDeath()
     {
-        enabled = false;
         Destroy(this);
     }
 

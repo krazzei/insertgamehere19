@@ -25,6 +25,12 @@ public class Ship : MonoBehaviour
         _rigidbody = GetComponent<Rigidbody2D>();
         GameManager.SetShip(this);
     }
+
+    private void Start()
+    {
+        // TODO: move this, I think we want a count down.
+        GameManager.Start();
+    }
     
     private void Update()
     {
