@@ -20,13 +20,12 @@ public class Ship : MonoBehaviour
     [SerializeField]
     private Transform _rightSide;
     
-    // Start is called before the first frame update
-    private void Start()
+    private void Awake()
     {
         _rigidbody = GetComponent<Rigidbody2D>();
+        GameManager.SetShip(this);
     }
-
-    // Update is called once per frame
+    
     private void Update()
     {
         if ( Input.GetKeyDown(KeyCode.Space))
@@ -56,5 +55,10 @@ public class Ship : MonoBehaviour
         {
             _rigidbody.AddForceAtPosition(thrustForce * -0.5f * _rightSide.right, _rightSide.position);
         }
+    }
+
+    private void OnDestroy()
+    {
+        GameManager.FireShipDeath();
     }
 }
