@@ -57,6 +57,17 @@ public class RhythmManager : MonoBehaviour
         }
     }
 
+    public float getOutput()
+    {
+        float effectiveness = 0; //closer to last or coming beat = closer to 1
+
+        var beatPercent = _timeBetweenLastBeat / _spb;
+        effectiveness = beatPercent >= 0.5
+            ? Mathf.Lerp(1, 0.5f, (beatPercent - 0.5f) * 2)
+            : Mathf.Lerp(1, 0.5f, beatPercent * 2);
+        return _timeBetweenLastBeat / _spb;
+    }
+
     public float EvaluatePress(Thrusters player)
     {
         var playerPress = _playerPresses[(int)player];
