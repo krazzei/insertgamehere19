@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -52,5 +53,10 @@ public static class GameManager
     {
         var time = _endTime - _startTime;
         _highScoreManager.UpdateOrInsertHighScore(initials, time);
+    }
+
+    public static List<HighScore> GetSortedHighScore()
+    {
+        return _highScoreManager.GetSortedHighScore();
     }
 }

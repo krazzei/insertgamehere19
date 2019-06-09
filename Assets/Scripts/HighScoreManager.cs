@@ -50,4 +50,10 @@ public class HighScoreManager
         _jsonSerializer.WriteObject(_fileHandle, _highScores);
         _fileHandle.Flush();
     }
+
+    public List<HighScore> GetSortedHighScore()
+    {
+        _highScores.Sort((s1, s2) => s1.Time.CompareTo(s2.Time));
+        return _highScores;
+    }
 }
