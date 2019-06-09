@@ -67,8 +67,8 @@ public class RhythmManager : MonoBehaviour
         var beatPercent = _timeBetweenLastBeat / _spb;
         Debug.Log($"% {beatPercent}");
         effectiveness = beatPercent >= 0.5
-            ? Mathf.Lerp(1, 0, (beatPercent - 0.5f) * 2)
-            : Mathf.Lerp(1, 0, beatPercent * 2);
+            ? Mathf.Lerp(1, 0.5f, (beatPercent - 0.5f) * 2)
+            : Mathf.Lerp(1, 0.5f, beatPercent * 2);
         Debug.Log($"effectiveness {effectiveness}");
         playerPress.BeatUsed = true;
         return effectiveness;
