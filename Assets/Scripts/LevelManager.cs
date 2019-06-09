@@ -6,9 +6,8 @@ public class LevelManager : MonoBehaviour
 {
     public static LevelManager instance;
 
-    public Level[] lvls = {
-        
-    };
+    public Level[] lvls = {};
+    public Level coffeeLvl;
     private int current = 0;
 
     void Awake()
@@ -16,10 +15,16 @@ public class LevelManager : MonoBehaviour
         instance = this;
     }
 
-    public static void nextLevel() { instance.nextLevelPrivate(); }
-    private void nextLevelPrivate()
+    public void nextLevel()
     {
         if(current < lvls.Length)
             RhythmManager.Instance.transitionLevels(lvls[current++]);
     }
+
+    public Level getCurrentLevel() { return lvls[current]; }
+
+    //switch to coffee level
+    public void coffee() { RhythmManager.Instance.transitionLevels(coffeeLvl); }
+    //switch back to original
+    public void decoffee() { RhythmManager.Instance.transitionLevels(lvls[current]); }
 }

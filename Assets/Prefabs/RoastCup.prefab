@@ -122,9 +122,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   roast: {fileID: 1053967352971839091}
   ohYeah: {fileID: 8300000, guid: 0e28c84ef77aef740ba36034d21255a4, type: 3}
-  roastSong: {fileID: 0}
-  currentSong: {fileID: 0}
-  roastDuration: 15
+  coffeeSong: {fileID: 8300000, guid: 65b06be858cf2c24ebe751ca42a1b101, type: 3}
 --- !u!82 &1053967352971839095
 AudioSource:
   m_ObjectHideFlags: 0

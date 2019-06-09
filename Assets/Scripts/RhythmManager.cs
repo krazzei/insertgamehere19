@@ -1,14 +1,16 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class RhythmManager : MonoBehaviour
 {
     private static RhythmManager _instance;
 
     public static RhythmManager Instance => _instance;
+    private List<GameObject> beatSubs = new List<GameObject>();
 
-    private AudioSource musicPlayer;
+    public AudioSource musicPlayer;
     //public AudioClip defaultMusic;
     //private AudioSource metronome;
     public AudioClip metronomeClip;
@@ -16,7 +18,7 @@ public class RhythmManager : MonoBehaviour
     private bool transitioning = true;
 
     private float bpm;
-    private float spb; //seconds per beat
+    public float spb; //seconds per beat
 
     private float beatTime = 0; //reset immediately after new beat
     private bool resetUsed = false; //keeps track of if we already used the nearest beat
@@ -65,14 +67,24 @@ public class RhythmManager : MonoBehaviour
             print(evaluatePress(1));
 
         else if (Input.GetKeyDown(KeyCode.P))
-            LevelManager.nextLevel();
+            LevelManager.instance.nextLevel();
+    }
+
+    //sign up to receive messages on beat
+    public void subToBeat(GameObject subscriber)
+    {
+        beatSubs.Add(subscriber);
     }
 
     private void beat()
     {
         //do something
+        foreach (GameObject item in beatSubs)
+        {
+            item.SendMessage("onBeat");
+        }
     }
-    
+
     public float evaluatePress(int player)
     {
         PlayerPress playerPress = playerPresses[player - 1];
@@ -116,7 +128,7 @@ public class RhythmManager : MonoBehaviour
         musicPlayer.volume = 1;
 
         //counting off
-        for (int j = 0; j < 2; j++)
+        for (int j = 0; j < 1; j++) //measures
         {
             musicPlayer.pitch = 1;
             for (int i = 0; i < 3; i++)

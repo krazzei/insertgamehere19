@@ -5,62 +5,46 @@ using UnityEngine;
 public class FC_Roasted : MonoBehaviour
 {
     [SerializeField]
-    SpriteRenderer roast;
-    [SerializeField]
     AudioClip ohYeah;
-    [SerializeField]
-    AudioSource roastSong;
-    [SerializeField]
-    AudioSource currentSong;
 
-    [SerializeField]
-    float roastDuration = 15.0f;
-    float timer = 0.0f;
-    bool startRoast = false;
+    private bool activated = false;
+
     // Start is called before the first frame update
     void Start()
     {
-        GetComponent<AudioSource>().playOnAwake = false;
-        GetComponent<AudioSource>().clip = ohYeah;
-        roast = GetComponent<SpriteRenderer>();
-        roast.enabled = true;
+        //RhythmManager.Instance.subToBeat(gameObject); //get "onBeat()" calls from RhythmManager
+
     }
 
-    // Update is called once per frame
-    void Update()
+    /*public void onBeat()
     {
-        Roasting();
-    }
+        if (activated)
+        { //only on 1st frame of activation
+            //print("YEUH");
+            if(RhythmManager.Instance.musicPlayer.isPlaying)
+        }
+    }*/
+
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        GetComponent<AudioSource>().Play();
-        roast.enabled = false;
-        currentSong.Pause();
-        roastSong.Play();
-        startRoast = true;
- 
+        StartCoroutine(restoreMusicAfterCoffeeDone());
+
+        //RhythmManager.Instance.musicPlayer.loop = false; //stop when done, onBeat() will restore to original level before picking up coffee
     }
 
-    private void OnTriggerExit2D(Collider2D collision)
+    IEnumerator restoreMusicAfterCoffeeDone()
     {
-        
-    }
+        print("just called");
+        activated = true;
+        GetComponent<Collider2D>().enabled = false; //can't touch anymore
+        LevelManager.instance.coffee();
 
-    void Roasting()
-    {
-        if (startRoast == true)
-        {
-            Destroy(gameObject, roastDuration);
-            print("does this get printed");
-            timer += Time.deltaTime;
-            if (timer > roastDuration)
-            {
-                currentSong.Play();
-                roastSong.Pause();
-                timer = 0.0f;
-                startRoast = false;
-            }
-        }
+        yield return new WaitForSeconds(LevelManager.instance.coffeeLvl.music.length + RhythmManager.Instance.spb * 4);
+
+        LevelManager.instance.decoffee();
+        print("exited");
+
+        StopCoroutine(restoreMusicAfterCoffeeDone());
     }
 }
