@@ -13,7 +13,6 @@ public static class GameManager
 
     static GameManager()
     {
-        Debug.Log(Application.persistentDataPath);
         _highScoreManager = new HighScoreManager(Application.persistentDataPath + "/IGH19_highScore.json");
     }
 
