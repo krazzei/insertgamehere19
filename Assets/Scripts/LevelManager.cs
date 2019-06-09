@@ -20,6 +20,6 @@ public class LevelManager : MonoBehaviour
     private void nextLevelPrivate()
     {
         if(current < lvls.Length)
-            RhythmManager.transitionLevels(lvls[current++]);
+            RhythmManager.Instance.transitionLevels(lvls[current++]);
     }
 }
