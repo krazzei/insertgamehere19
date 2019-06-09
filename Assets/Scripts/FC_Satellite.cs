@@ -27,6 +27,7 @@ public class FC_Satellite : MonoBehaviour
 
     private void OnTriggerExit2D(Collider2D collision)
     {
+        Destroy(gameObject, 2);
         GetComponent<AudioSource>().Stop();
     }
 }

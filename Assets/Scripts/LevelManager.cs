@@ -18,7 +18,7 @@ public class LevelManager : MonoBehaviour
     public void nextLevel()
     {
         if(current < lvls.Length)
-            RhythmManager.Instance.transitionLevels(lvls[current++]);
+            RhythmManager.Instance.TransitionLevels(lvls[current++]);
     }
 
     public Level getCurrentLevel() { return lvls[current]; }

@@ -13,13 +13,18 @@ public class Ship : MonoBehaviour
 
     [SerializeField]
     private float thrustForce;
-    
+
     [SerializeField]
     private Transform _leftSide;
 
     [SerializeField]
     private Transform _rightSide;
-    
+
+    [SerializeField]
+    private float sideForce;
+
+    private float _evaluation;
+
     private void Awake()
     {
         _rigidbody = GetComponent<Rigidbody2D>();
@@ -31,35 +36,37 @@ public class Ship : MonoBehaviour
         // TODO: move this, I think we want a count down.
         GameManager.Start();
     }
-    
+
     private void Update()
     {
-        if ( Input.GetKeyDown(KeyCode.Space))
-        {
-            _rigidbody.AddForceAtPosition(_leftThruster.up * thrustForce, _leftThruster.position);
-            _rigidbody.AddForceAtPosition(_rightThruster.up * thrustForce, _rightThruster.position);
-        }
-
         // TODO: might want and Input controller of some sort?
         // TODO: at the least we need to use GetAxis or GetAction to use the arcade stick.
         if (Input.GetKeyDown(KeyCode.F))
         {
-            _rigidbody.AddForceAtPosition(_leftThruster.up * thrustForce, _leftThruster.position);
+            _evaluation = RhythmManager.Instance.EvaluatePress(Thrusters.MainLeft);
+            //Debug.Log($"left: {_evaluation}");
+            _rigidbody.AddForceAtPosition(thrustForce * _evaluation * _leftThruster.up, _leftThruster.position);
         }
 
         if (Input.GetKeyDown(KeyCode.J))
         {
-            _rigidbody.AddForceAtPosition(_rightThruster.up * thrustForce, _rightThruster.position);
+            _evaluation = RhythmManager.Instance.EvaluatePress(Thrusters.MainRight);
+            //Debug.Log($"right: {_evaluation}");
+            _rigidbody.AddForceAtPosition(thrustForce * _evaluation * _rightThruster.up, _rightThruster.position);
         }
 
         if (Input.GetKeyDown(KeyCode.D))
         {
-            _rigidbody.AddForceAtPosition(thrustForce * 0.5f * _leftSide.right, _leftSide.position);
+            _evaluation = RhythmManager.Instance.EvaluatePress(Thrusters.SidLeft);
+//            Debug.Log($"side left: {_evaluation}");
+            _rigidbody.AddForceAtPosition(sideForce * _evaluation * _leftSide.right, _leftSide.position);
         }
 
         if (Input.GetKeyDown(KeyCode.K))
         {
-            _rigidbody.AddForceAtPosition(thrustForce * -0.5f * _rightSide.right, _rightSide.position);
+            _evaluation = RhythmManager.Instance.EvaluatePress(Thrusters.SideRight);
+//            Debug.Log($"side right: {_evaluation}");
+            _rigidbody.AddForceAtPosition(-sideForce * _evaluation * _rightSide.right, _rightSide.position);
         }
     }
 

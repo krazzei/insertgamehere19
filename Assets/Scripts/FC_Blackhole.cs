@@ -5,6 +5,8 @@ using UnityEngine;
 public class FC_Blackhole : MonoBehaviour
 {
     [SerializeField]
+    GameObject musicPlayer;
+    [SerializeField]
     AudioClip blackHole;
     [SerializeField]
     AudioSource music;
@@ -14,6 +16,8 @@ public class FC_Blackhole : MonoBehaviour
     {
         GetComponent<AudioSource>().playOnAwake = false;
         GetComponent<AudioSource>().clip = blackHole;
+        musicPlayer = GameObject.Find("MusicPlayer");
+        music = musicPlayer.GetComponent<AudioSource>();
     }
 
     // Update is called once per frame
@@ -30,6 +34,7 @@ public class FC_Blackhole : MonoBehaviour
 
     private void OnTriggerExit2D(Collider2D collision)
     {
+        Destroy(gameObject, 2);
         GetComponent<AudioSource>().Stop();
         music.mute = false;
     }
