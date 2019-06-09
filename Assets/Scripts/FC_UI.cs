@@ -62,12 +62,6 @@ public class FC_UI : MonoBehaviour
         return shipToEnd;
     }
 
-    float GetMarkerPos()
-    {
-        markerToEnd = Vector2.Distance(marker.position, barStart.position);
-        return markerToEnd;
-    }
-
     void SetMarkerPos()
     {
         progress = GetShipPos() / GetLevelLength();

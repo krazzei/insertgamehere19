@@ -16,7 +16,7 @@ public class FC_Blackhole : MonoBehaviour
     {
         GetComponent<AudioSource>().playOnAwake = false;
         GetComponent<AudioSource>().clip = blackHole;
-        musicPlayer = GameObject.Find("MusicPlayer");
+        musicPlayer = FindObjectOfType<RhythmManager>().gameObject;
         music = musicPlayer.GetComponent<AudioSource>();
     }
 
