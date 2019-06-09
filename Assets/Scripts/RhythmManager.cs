@@ -29,6 +29,8 @@ public class RhythmManager : MonoBehaviour
     private float _lastBeatTime;
     private float _timeBetweenLastBeat;
 
+    public float Spb => _spb;
+
     private void Awake()
     {
         _instance = this;

@@ -40,7 +40,7 @@ public class FC_Roasted : MonoBehaviour
         GetComponent<Collider2D>().enabled = false; //can't touch anymore
         LevelManager.instance.coffee();
 
-        yield return new WaitForSeconds(LevelManager.instance.coffeeLvl.music.length + RhythmManager.Instance.spb * 4);
+        yield return new WaitForSeconds(LevelManager.instance.coffeeLvl.music.length + RhythmManager.Instance.Spb * 4);
 
         LevelManager.instance.decoffee();
         print("exited");

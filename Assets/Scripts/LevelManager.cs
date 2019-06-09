@@ -24,7 +24,7 @@ public class LevelManager : MonoBehaviour
     public Level getCurrentLevel() { return lvls[current]; }
 
     //switch to coffee level
-    public void coffee() { RhythmManager.Instance.transitionLevels(coffeeLvl); }
+    public void coffee() { RhythmManager.Instance.TransitionLevels(coffeeLvl); }
     //switch back to original
-    public void decoffee() { RhythmManager.Instance.transitionLevels(lvls[current]); }
+    public void decoffee() { RhythmManager.Instance.TransitionLevels(lvls[current]); }
 }
