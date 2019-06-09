@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using System;
+using UnityEngine;
 
 public class CameraController : MonoBehaviour
 {
@@ -25,5 +26,10 @@ public class CameraController : MonoBehaviour
         _position.x = 0;
         _position.z = -10;
         _transform.position = _position;
+    }
+
+    private void OnDestroy()
+    {
+        GameManager.OnShipDeath -= GameManagerOnOnShipDeath;
     }
 }

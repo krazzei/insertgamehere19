@@ -27,6 +27,7 @@ public static class GameManager
     public static void FireShipDeath()
     {
         OnShipDeath?.Invoke();
+        SceneManager.LoadScene("MainMenu");
     }
 
     public static event Action OnWinTriggerHit;
