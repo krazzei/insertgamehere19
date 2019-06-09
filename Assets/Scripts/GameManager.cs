@@ -8,6 +8,7 @@ public static class GameManager
     private static Ship _ship;
     private static float _startTime;
     private static float _endTime;
+    private static float _time;
 
     private static HighScoreManager _highScoreManager;
 
@@ -58,5 +59,12 @@ public static class GameManager
     public static List<HighScore> GetSortedHighScore()
     {
         return _highScoreManager.GetSortedHighScore();
+    }
+
+    public static float GetTime()
+    {
+        _time = Time.time - _startTime;
+        //Debug.Log(_time);
+        return _time;
     }
 }
