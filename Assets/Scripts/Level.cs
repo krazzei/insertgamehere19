@@ -2,7 +2,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Level : MonoBehaviour
+[System.Serializable]
+public class Level
 {
     public AudioClip music;
     public float bpm;

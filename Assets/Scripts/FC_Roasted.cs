@@ -60,6 +60,7 @@ public class FC_Roasted : MonoBehaviour
         if (startRoast == true)
         {
             Destroy(gameObject, roastDuration);
+            print("does this get printed");
             timer += Time.deltaTime;
             if (timer > roastDuration)
             {
