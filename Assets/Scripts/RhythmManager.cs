@@ -76,7 +76,14 @@ public class RhythmManager : MonoBehaviour
 
     public void TransitionLevels(Level newLevel)
     {
-        StartCoroutine(CountOff(newLevel, 1));
+        //StartCoroutine(CountOff(newLevel, 1));
+        
+        _musicPlayer.clip = newLevel.music;
+        _bpm = newLevel.bpm;
+        _spb = 60 / _bpm;
+        _lastBeatTime = 0;
+        _timeBetweenLastBeat = 0;
+        _musicPlayer.Play();
     }
 
     private IEnumerator ResetBeatPress(float frameTime)
