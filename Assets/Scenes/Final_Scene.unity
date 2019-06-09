@@ -4252,10 +4252,20 @@ PrefabInstance:
       propertyPath: m_SortingOrder
       value: 10
       objectReference: {fileID: 0}
+    - target: {fileID: 1947527234527497054, guid: 0067878e48d7f44d5969d51f0b8639ae,
+        type: 3}
+      propertyPath: m_LinearDrag
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 1947527234527497041, guid: 0067878e48d7f44d5969d51f0b8639ae,
         type: 3}
       propertyPath: sideForce
-      value: 50
+      value: 150
+      objectReference: {fileID: 0}
+    - target: {fileID: 1947527234527497041, guid: 0067878e48d7f44d5969d51f0b8639ae,
+        type: 3}
+      propertyPath: thrustForce
+      value: 300
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0067878e48d7f44d5969d51f0b8639ae, type: 3}
