@@ -161,9 +161,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _leftThruster: {fileID: 1947527234327977564}
   _rightThruster: {fileID: 1947527234530320346}
-  thrustForce: 100
+  thrustForce: 200
   _leftSide: {fileID: 1947527234519325478}
   _rightSide: {fileID: 1947527234720959652}
+  sideForce: 100
 --- !u!1 &1947527234530320349
 GameObject:
   m_ObjectHideFlags: 0
@@ -301,7 +302,7 @@ SpriteRenderer:
   m_Size: {x: 0.42, y: 0.56}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!1 &1947527235027119012
@@ -381,7 +382,7 @@ SpriteRenderer:
   m_Size: {x: 0.51, y: 0.75}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!1 &1947527235844079193
@@ -461,6 +462,6 @@ SpriteRenderer:
   m_Size: {x: 0.51, y: 0.75}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
