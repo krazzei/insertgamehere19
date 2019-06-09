@@ -7,6 +7,7 @@ public static class GameManager
     private static Ship _ship;
     private static float _startTime;
     private static float _endTime;
+    private static float _time;
 
     public static void SetShip(Ship ship)
     {
@@ -43,5 +44,12 @@ public static class GameManager
     public static void RecordScore(string initials)
     {
         var time = _endTime - _startTime;
+    }
+
+    public static float GetTime()
+    {
+        _time = Time.time - _startTime;
+        //Debug.Log(_time);
+        return _time;
     }
 }
