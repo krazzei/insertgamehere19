@@ -12,6 +12,10 @@ public class FC_Roasted : MonoBehaviour
     AudioSource roastSong;
     [SerializeField]
     AudioSource currentSong;
+    [SerializeField]
+    GameObject musicPlayer;
+    [SerializeField]
+    GameObject roastPlayer;
 
     [SerializeField]
     float roastDuration = 15.0f;
@@ -24,6 +28,10 @@ public class FC_Roasted : MonoBehaviour
         GetComponent<AudioSource>().clip = ohYeah;
         roast = GetComponent<SpriteRenderer>();
         roast.enabled = true;
+        musicPlayer = GameObject.Find("MusicPlayer");
+        currentSong = musicPlayer.GetComponent<AudioSource>();
+        roastPlayer = GameObject.Find("RoastPlayer");
+        roastSong = roastPlayer.GetComponent<AudioSource>();
     }
 
     // Update is called once per frame
