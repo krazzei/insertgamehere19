@@ -4,7 +4,9 @@ using UnityEngine;
 
 public class RhythmManager : MonoBehaviour
 {
-    public static RhythmManager instance;
+    private static RhythmManager _instance;
+
+    public static RhythmManager Instance => _instance;
 
     private AudioSource musicPlayer;
     //public AudioClip defaultMusic;
@@ -24,7 +26,7 @@ public class RhythmManager : MonoBehaviour
 
     void Awake()
     {
-        instance = this;
+        _instance = this;
         musicPlayer = GetComponent<AudioSource>(); //setup audiosource
     }
 
@@ -70,10 +72,8 @@ public class RhythmManager : MonoBehaviour
     {
         //do something
     }
-
-    //give player score based on how on-time they are
-    public static float evaluatePress(int player) { return instance.evaluatePressPrivate(player); }
-    private float evaluatePressPrivate(int player)
+    
+    public float evaluatePress(int player)
     {
         PlayerPress playerPress = playerPresses[player - 1];
         float beatCompletePercentage = 0; //closer to coming beat = closer to 1
@@ -93,8 +93,11 @@ public class RhythmManager : MonoBehaviour
         return effectiveness;
     }
 
-    public static void transitionLevels(Level newLevel) { instance.transitionLevelsPrivate(newLevel); }
-    private void transitionLevelsPrivate(Level newLevel) { instance.StartCoroutine(countoff(newLevel, 2)); }
+    public void transitionLevels(Level newLevel)
+    {
+        StartCoroutine(countoff(newLevel, 2));
+    }
+    
     IEnumerator countoff(Level newLevel, float duration)
     {
         //prefade out
@@ -135,15 +138,11 @@ public class RhythmManager : MonoBehaviour
 
         StopCoroutine(countoff(newLevel, duration));
     }
-
-
+    
     //class that keeps track of players' presses between beats
     private class PlayerPress
     {
         public bool beatUsed = false;
         public void resetForNextBeat() { beatUsed = false; }
     }
-
 }
-
-

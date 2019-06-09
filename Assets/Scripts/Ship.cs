@@ -40,6 +40,8 @@ public class Ship : MonoBehaviour
             _rigidbody.AddForceAtPosition(_rightThruster.up * thrustForce, _rightThruster.position);
         }
         
+        if ()
+        
         // TODO: might want and Input controller of some sort?
         // TODO: at the least we need to use GetAxis or GetAction to use the arcade stick.
         if (Input.GetKeyDown(KeyCode.F))
