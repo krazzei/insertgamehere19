@@ -67,8 +67,8 @@ public class RhythmManager : MonoBehaviour
         var beatPercent = _timeBetweenLastBeat / _spb;
         Debug.Log($"% {beatPercent}");
         effectiveness = beatPercent >= 0.5
-            ? Mathf.Lerp(1, 0, (beatPercent - 0.5f) * 2)
-            : Mathf.Lerp(1, 0, beatPercent * 2);
+            ? Mathf.Lerp(1, 0.5f, (beatPercent - 0.5f) * 2)
+            : Mathf.Lerp(1, 0.5f, beatPercent * 2);
         Debug.Log($"effectiveness {effectiveness}");
         playerPress.BeatUsed = true;
         return effectiveness;
@@ -76,7 +76,14 @@ public class RhythmManager : MonoBehaviour
 
     public void TransitionLevels(Level newLevel)
     {
-        StartCoroutine(CountOff(newLevel, 1));
+        //StartCoroutine(CountOff(newLevel, 1));
+        
+        _musicPlayer.clip = newLevel.music;
+        _bpm = newLevel.bpm;
+        _spb = 60 / _bpm;
+        _lastBeatTime = 0;
+        _timeBetweenLastBeat = 0;
+        _musicPlayer.Play();
     }
 
     private IEnumerator ResetBeatPress(float frameTime)
