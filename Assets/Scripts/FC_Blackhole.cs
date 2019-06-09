@@ -32,4 +32,9 @@ public class FC_Blackhole : MonoBehaviour
         GetComponent<AudioSource>().Stop();
         music.mute = false;
     }
+
+    private void OnBecameInvisible()
+    {
+        Destroy(gameObject);
+    }
 }

@@ -47,4 +47,9 @@ public class FC_Roasted : MonoBehaviour
 
         StopCoroutine(restoreMusicAfterCoffeeDone());
     }
+
+    private void OnBecameInvisible()
+    {
+        Destroy(gameObject);
+    }
 }

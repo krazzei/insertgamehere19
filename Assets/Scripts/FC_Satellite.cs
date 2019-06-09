@@ -30,4 +30,9 @@ public class FC_Satellite : MonoBehaviour
         Destroy(gameObject, 2);
         GetComponent<AudioSource>().Stop();
     }
+
+    private void OnBecameInvisible()
+    {
+        Destroy(gameObject);
+    }
 }
