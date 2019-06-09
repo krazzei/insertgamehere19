@@ -44,28 +44,24 @@ public class Ship : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.F))
         {
             _evaluation = RhythmManager.Instance.EvaluatePress(Thrusters.MainLeft);
-            //Debug.Log($"left: {_evaluation}");
             _rigidbody.AddForceAtPosition(thrustForce * _evaluation * _leftThruster.up, _leftThruster.position);
         }
 
         if (Input.GetKeyDown(KeyCode.J))
         {
             _evaluation = RhythmManager.Instance.EvaluatePress(Thrusters.MainRight);
-            //Debug.Log($"right: {_evaluation}");
             _rigidbody.AddForceAtPosition(thrustForce * _evaluation * _rightThruster.up, _rightThruster.position);
         }
 
         if (Input.GetKeyDown(KeyCode.D))
         {
             _evaluation = RhythmManager.Instance.EvaluatePress(Thrusters.SidLeft);
-//            Debug.Log($"side left: {_evaluation}");
             _rigidbody.AddForceAtPosition(sideForce * _evaluation * _leftSide.right, _leftSide.position);
         }
 
         if (Input.GetKeyDown(KeyCode.K))
         {
             _evaluation = RhythmManager.Instance.EvaluatePress(Thrusters.SideRight);
-//            Debug.Log($"side right: {_evaluation}");
             _rigidbody.AddForceAtPosition(-sideForce * _evaluation * _rightSide.right, _rightSide.position);
         }
     }

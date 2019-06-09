@@ -35,7 +35,6 @@ public class FC_Roasted : MonoBehaviour
 
     IEnumerator restoreMusicAfterCoffeeDone()
     {
-        print("just called");
         activated = true;
         GetComponent<Collider2D>().enabled = false; //can't touch anymore
         LevelManager.instance.coffee();
@@ -43,9 +42,6 @@ public class FC_Roasted : MonoBehaviour
         yield return new WaitForSeconds(LevelManager.instance.coffeeLvl.music.length + RhythmManager.Instance.Spb * 4);
 
         LevelManager.instance.decoffee();
-        print("exited");
-
-        StopCoroutine(restoreMusicAfterCoffeeDone());
     }
 
     private void OnBecameInvisible()

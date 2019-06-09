@@ -1,5 +1,4 @@
 ﻿using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -35,6 +34,18 @@ public class FC_UI : MonoBehaviour
     void Start()
     {
         RhythmManager.Instance.OnBeat += OnBeat;
+        GameManager.OnShipDeath += GameManagerOnOnShipDeath;
+    }
+
+    private void GameManagerOnOnShipDeath()
+    {
+        Destroy(this);
+    }
+
+    private void OnDestroy()
+    {
+        RhythmManager.Instance.OnBeat -= OnBeat;
+        GameManager.OnShipDeath -= GameManagerOnOnShipDeath;
     }
 
     private void OnBeat()
