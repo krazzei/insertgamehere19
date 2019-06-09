@@ -25,11 +25,49 @@ public class FC_UI : MonoBehaviour
     float shipToEnd;
     float progress;
     float markerToEnd;
+
+    [SerializeField]
+    private Image _flash;
+
+    private Color _color;
    
     // Start is called before the first frame update
     void Start()
     {
+        RhythmManager.Instance.OnBeat += OnBeat;
+    }
+
+    private void OnBeat()
+    {
+        //StartCoroutine(BeatRoutine());
+         _color = _flash.color;
+        _color.a = _color.a > 0.5f ? 0 : 1f;
+        _flash.color = _color;
+    }
+
+    private IEnumerator BeatRoutine()
+    {
+        const float duration = 0.1f;
+        var time = duration;
+        var color = _flash.color;
+        color.a = 1;
+        _flash.color = color;
         
+//        while (time > 0)
+//        {
+//            color.a = Mathf.Lerp(1, 0, time / duration);
+//            _flash.color = color;
+//
+//            yield return null;
+//            time -= Time.deltaTime;
+//        }
+
+        yield return null;
+        yield return null;
+        yield return null;
+
+        color.a = 0;
+        _flash.color = color;
     }
 
     // Update is called once per frame
@@ -66,6 +104,6 @@ public class FC_UI : MonoBehaviour
     {
         progress = GetShipPos() / GetLevelLength();
         marker.position = Vector2.Lerp(barStart.position, barEnd.position, progress);
-        Debug.Log(progress);
+        //Debug.Log(progress);
     }
 }

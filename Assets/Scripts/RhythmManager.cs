@@ -23,13 +23,16 @@ public class RhythmManager : MonoBehaviour
     private bool _transitioning = true;
 
     private float _bpm;
-    private float _spb; //seconds per beat
+    private float _spb = 60f / 90f; //seconds per beat
 
     private readonly PlayerPress[] _playerPresses = new PlayerPress[4];
     private float _lastBeatTime;
     private float _timeBetweenLastBeat;
+    private bool _hasSentBeat;
 
     public float Spb => _spb;
+
+    public event System.Action OnBeat; 
 
     private void Awake()
     {
@@ -46,10 +49,11 @@ public class RhythmManager : MonoBehaviour
     void Update()
     {
         _timeBetweenLastBeat = _musicPlayer.time - _lastBeatTime;
-        if (_timeBetweenLastBeat >= _spb && !_transitioning)
+        if (_timeBetweenLastBeat >= _spb)
         {
             _lastBeatTime = _musicPlayer.time;
             StartCoroutine(ResetBeatPress(Time.deltaTime));
+            OnBeat?.Invoke();
         }
     }
 
@@ -61,10 +65,11 @@ public class RhythmManager : MonoBehaviour
         if (playerPress.BeatUsed) return effectiveness;
         
         var beatPercent = _timeBetweenLastBeat / _spb;
+        Debug.Log($"% {beatPercent}");
         effectiveness = beatPercent >= 0.5
             ? Mathf.Lerp(1, 0, (beatPercent - 0.5f) * 2)
             : Mathf.Lerp(1, 0, beatPercent * 2);
-            
+        Debug.Log($"effectiveness {effectiveness}");
         playerPress.BeatUsed = true;
         return effectiveness;
     }
