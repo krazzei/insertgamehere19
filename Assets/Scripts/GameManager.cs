@@ -47,6 +47,7 @@ public static class GameManager
     public static void Start()
     {
         _startTime = Time.time;
+        LevelManager.nextLevel();
     }
     
     public static void RecordScore(string initials)

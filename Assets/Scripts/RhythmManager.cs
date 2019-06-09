@@ -4,25 +4,34 @@ using UnityEngine;
 
 public class RhythmManager : MonoBehaviour
 {
-    private static AudioSource musicPlayer;
-    public AudioClip defaultMusic;
-    private static float bpm;
-    private static float spb; //seconds per beat
+    public static RhythmManager instance;
 
-    private static float beatTime = 0; //reset immediately after new beat
+    private AudioSource musicPlayer;
+    //public AudioClip defaultMusic;
+    //private AudioSource metronome;
+    public AudioClip metronomeClip;
+
+    private bool transitioning = true;
+
+    private float bpm;
+    private float spb; //seconds per beat
+
+    private float beatTime = 0; //reset immediately after new beat
     private bool resetUsed = false; //keeps track of if we already used the nearest beat
 
-    private static PlayerPress[] playerPresses = new PlayerPress[1];
+    private PlayerPress[] playerPresses = new PlayerPress[1];
     public float arbitraryNumberToOffsetMusicByBecauseUnitysAudioIsAPieceOfShitAndDelayedForSomeReason = .125f;
+
+    void Awake()
+    {
+        instance = this;
+        musicPlayer = GetComponent<AudioSource>(); //setup audiosource
+    }
 
     void Start()
     {
         for (int i = 0; i < playerPresses.Length; i++) //initialize playerpresses
             playerPresses[i] = new PlayerPress();
-        
-        musicPlayer = GetComponent<AudioSource>(); //setup audiosource
-        Level tempLvl = new Level(musicPlayer.clip, 90);
-        transitionLevels(tempLvl);
     }
 
     void Update()
@@ -49,17 +58,22 @@ public class RhythmManager : MonoBehaviour
             beatTime = checkIfBeatTimeResetToZero;
         }
 
+        //DEBUG!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
         if (Input.GetKeyDown(KeyCode.Q))
             print(evaluatePress(1));
+
+        else if (Input.GetKeyDown(KeyCode.P))
+            LevelManager.nextLevel();
     }
 
-    private static void beat()
+    private void beat()
     {
         //do something
     }
 
     //give player score based on how on-time they are
-    public static float evaluatePress(int player)
+    public static float evaluatePress(int player) { return instance.evaluatePressPrivate(player); }
+    private float evaluatePressPrivate(int player)
     {
         PlayerPress playerPress = playerPresses[player - 1];
         float beatCompletePercentage = 0; //closer to coming beat = closer to 1
@@ -79,22 +93,55 @@ public class RhythmManager : MonoBehaviour
         return effectiveness;
     }
 
-    public static void transitionLevels(Level newLevel)
+    public static void transitionLevels(Level newLevel) { instance.transitionLevelsPrivate(newLevel); }
+    private void transitionLevelsPrivate(Level newLevel) { instance.StartCoroutine(countoff(newLevel, 2)); }
+    IEnumerator countoff(Level newLevel, float duration)
     {
+        //prefade out
+        transitioning = true;
+
+        //fading out
+        for (float time = duration; time > 0; time -= Time.deltaTime)
+        {
+            musicPlayer.volume = time / duration;
+            yield return null;
+        }
+
+        //post fading out
+        //musicPlayer.clip = metronomeClip;
+        musicPlayer.Stop();
+        musicPlayer.volume = 1;
+
+        //counting off
+        for (int j = 0; j < 2; j++)
+        {
+            musicPlayer.pitch = 1;
+            for (int i = 0; i < 3; i++)
+            {
+                musicPlayer.PlayOneShot(metronomeClip);
+                yield return new WaitForSeconds(spb);
+            }
+            musicPlayer.pitch = 2f;
+            musicPlayer.PlayOneShot(metronomeClip);
+            yield return new WaitForSeconds(spb);
+        }
+
+        //play music
+        musicPlayer.pitch = 1;
         musicPlayer.clip = newLevel.music;
         bpm = newLevel.bpm;
         spb = 60 / bpm;
         musicPlayer.Play();
+
+        StopCoroutine(countoff(newLevel, duration));
     }
+
 
     //class that keeps track of players' presses between beats
     private class PlayerPress
     {
         public bool beatUsed = false;
-        //public float beatEffect = 0.0f;
-        //public void resetForNextBeat() { beatUsed = false; beatEffect = 0; }
         public void resetForNextBeat() { beatUsed = false; }
-
     }
 
 }
