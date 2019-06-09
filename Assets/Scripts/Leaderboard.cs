@@ -1,5 +1,6 @@
 ﻿using System;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class Leaderboard : MonoBehaviour
@@ -22,5 +23,10 @@ public class Leaderboard : MonoBehaviour
             var item = Instantiate(_displayItem, Vector3.zero, Quaternion.identity, _scroll.content);
             item.SetHighScore(scores[i]);
         }
+    }
+
+    public void LoadMainMenu()
+    {
+        SceneManager.LoadScene("MainMenu");
     }
 }
