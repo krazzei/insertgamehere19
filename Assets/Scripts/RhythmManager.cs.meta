@@ -4,8 +4,7 @@ MonoImporter:
   externalObjects: {}
   serializedVersion: 2
   defaultReferences:
-  - defaultMusic: {fileID: 8300000, guid: a9e54892f1b979e458daf40e47a633ab, type: 3}
-  - metronomeClip: {fileID: 8300000, guid: 0e28c84ef77aef740ba36034d21255a4, type: 3}
+  - metronomeClip: {fileID: 8300000, guid: 9252fbf2032a35f4f9545865a208dba9, type: 3}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 

@@ -141,10 +141,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8564789896749424583b8fed65a112d7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  musicPlayer: {fileID: 0}
   metronomeClip: {fileID: 8300000, guid: 0e28c84ef77aef740ba36034d21255a4, type: 3}
-  spb: 0
-  arbitraryNumberToOffsetMusicByBecauseUnitysAudioIsAPieceOfShitAndDelayedForSomeReason: 0.125
 --- !u!114 &5795184538662299090
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -164,6 +161,10 @@ MonoBehaviour:
     bg: {fileID: 0}
   - music: {fileID: 8300000, guid: 65b06be858cf2c24ebe751ca42a1b101, type: 3}
     bpm: 120
+    spawnableEnemies: []
+    bg: {fileID: 0}
+  - music: {fileID: 8300000, guid: 8b549c7a840e639498a5d7c3a11698b9, type: 3}
+    bpm: 150
     spawnableEnemies: []
     bg: {fileID: 0}
   coffeeLvl:
