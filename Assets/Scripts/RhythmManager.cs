@@ -44,6 +44,13 @@ public class RhythmManager : MonoBehaviour
     {
         for (int i = 0; i < _playerPresses.Length; i++) //initialize playerpresses
             _playerPresses[i] = new PlayerPress();
+        
+//        _spb = 0.6667f;
+//        for (var f = 0f; f < _spb; f += 0.1f)
+//        {
+//            _timeBetweenLastBeat = f;
+//            Debug.Log(getOutput());
+//        }
     }
 
     void Update()
@@ -59,30 +66,21 @@ public class RhythmManager : MonoBehaviour
 
     public float getOutput()
     {
-        float effectiveness = 0; //closer to last or coming beat = closer to 1
-
         var beatPercent = _timeBetweenLastBeat / _spb;
-        effectiveness = beatPercent >= 0.5
+        var effectiveness = beatPercent >= 0.5
             ? Mathf.Lerp(1, 0.5f, (beatPercent - 0.5f) * 2)
-            : Mathf.Lerp(1, 0.5f, beatPercent * 2);
-        return _timeBetweenLastBeat / _spb;
+            : Mathf.Lerp(0.5f, 1, beatPercent * 2);
+        return effectiveness;
     }
 
     public float EvaluatePress(Thrusters player)
     {
         var playerPress = _playerPresses[(int)player];
-        float effectiveness = 0; //closer to last or coming beat = closer to 1
-        
-        if (playerPress.BeatUsed) return effectiveness;
-        
-        var beatPercent = _timeBetweenLastBeat / _spb;
-        
-        effectiveness = beatPercent >= 0.5
-            ? Mathf.Lerp(1, 0.5f, (beatPercent - 0.5f) * 2)
-            : Mathf.Lerp(1, 0.5f, beatPercent * 2);
+
+        if (playerPress.BeatUsed) return 0;
         
         playerPress.BeatUsed = true;
-        return effectiveness;
+        return getOutput();
     }
 
     public void TransitionLevels(Level newLevel)
